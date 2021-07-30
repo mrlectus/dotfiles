@@ -11,9 +11,12 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox"
+    colorscheme = "gruvbox8"
+    enable_neomake = false
+    enable_ale = true
+    filemanager="nerdtree"
+    filetree_direction = "left"
     autocomplete_method = "ycm"
-    filemanager = "nerdtree"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -27,16 +30,18 @@
     enable_statusline_mode = true 
 
 # Enable autocomplete layer
-#[[layers]]
-#name = 'autocomplete'
-#auto_completion_return_key_behavior = "complete"
-#auto_completion_tab_key_behavior = "smart"
 [[layers]]
-name = "fzf"
+  name = 'autocomplete'
+  auto_completion_return_key_behavior = "complete"
+  auto_completion_tab_key_behavior = "smart"
+
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
+  name = "fzf"
+
+[[layers]]
+  name = 'shell'
+  default_position = 'top'
+  default_height = 30
 
 [[layers]]
   name = 'core'
@@ -74,7 +79,7 @@ default_height = 30
     "-Dlog.protocol=true",
     "-Dlog.level=NONE",
     "-noverify",
-    "-Xmx1G",
+    "-Xmx4256m",
     "-jar",
     "/home/brown/jdt-language-server/plugins/org.eclipse.equinox.launcher_1.6.200.v20210416-2027.jar",
     "-configuration",
@@ -82,19 +87,17 @@ default_height = 30
     "-data",
     "/home/brown/.cache/javalsp"
     ]
-[[layers]]
-  name = "lang#typescript"
+
 
 [[layers]]
   name = "lang#php"
 
 [[layers]]
-  name = "lang#javascript"
+  name = "lang#c"
+  clang_executable = "/usr/bin/clang"
 
 [[layers]]
-  name = "lang#c"
-  [layer.clang_std]
-    cpp = "c20"
+  name = "lang#javascript"
 
 [[layers]]
   name = "VersionControl"
@@ -140,11 +143,23 @@ default_height = 30
 [[custom_plugins]]
   repo = "lifepillar/vim-gruvbox8.git"
   merged = 0
+
 [[custom_plugins]]
   repo = "lifepillar/vim-colortemplate"
   merged = 0
 
+# [[custom_plugins]]
+  # repo = "octol/vim-cpp-enhanced-highlight"
+  # merged = 0
+#
 [[custom_plugins]]
-  repo = "octol/vim-cpp-enhanced-highlight"
+  repo = "ray-x/lsp_signature.nvim"
+  merged = true
+
+[[custom_plugins]]
+  repo = "ray-x/aurora"
   merged = 0
 
+[[custom_plugins]]
+	name = "rdnetto/YCM-Generator"
+	merged = 0

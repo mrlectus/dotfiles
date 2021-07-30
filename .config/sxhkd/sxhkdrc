@@ -1,20 +1,14 @@
-#
-# wm independent hotkeys
-#
-##########################
 #System
 ##########################
+##########################
+
 # terminal emulator
 super + Return
-    alacritty
-
+    kitty
 # terminal emulator with tmux
 super + shift + Return
     sh /home/brown/my_tmux	
 
-# program launcher
-super + d 
-    rofi -show drun
 
 # window launcher
 super + shift + d
@@ -33,6 +27,7 @@ super + a
   lf /home/brown
 
 # Fullsreen/Region Screenshot:
+#  
 Print + {_,shift}
 	{mate-screenshot, mate-screenshot -a}
 
@@ -108,6 +103,20 @@ super + {_,shift + }{1-9,0}
 
 # preselect
 #
+super + d
+	/usr/local/bin/rofi -show drun -display-drun 'App launcher'
+
+# Config
+alt + 1
+  ~/.config/rofi/scripts/config
+
+# Search
+alt + 3
+  ~/.config/rofi/scripts/search
+
+# Sites
+alt + 2
+  ~/.config/rofi/scripts/site
 
 # preselect the direction
 super + alt + {Left,Down,Up,Right}
@@ -140,12 +149,11 @@ alt + shift + {Left,Right,Up,Down}
     xdo resize {-w -20,-w +20,-h -20,-h +20}
 
 # expand a window by moving one of its side outward
-super + {h, j, k, l}
-  bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
-
-super +  {h, j, k, l}
-  bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
-
+super + {h,j,k,l}
+  bspc node -z {left -20 0 || bspc node -z right -20 0, \
+                bottom 0 20 || bspc node -z top 0 20,\
+                top 0 -20 || bspc node -z bottom 0 -20,\
+                right 20 0 || bspc node -z left 20 0}
 #Volume Control
 XF86AudioLowerVolume
 	amixer set Master 5%-
