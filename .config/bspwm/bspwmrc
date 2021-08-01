@@ -1,10 +1,12 @@
 #! /bin/sh
 pgrep -x sxhkd > /dev/null || sxhkd &
-~/.config/polybar/launch.sh --cuts
+~/.config/polybar/launch.sh --forest
 wmname LG3D &
 # if [ -z "$(pgrep picom)" ] ; then
     # picom --experimental-backends -b &
 # fi
+
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Redshift
 if [ -z "$(pgrep redshift)" ] ; then
@@ -16,7 +18,6 @@ if [ -z "$(pgrep synapse)" ] ; then
 fi
 
 #~/.config/polybar/launch.sh --cuts
-export _JAVA_AWT_WM_NONREPARENTING=1
 
 #tray
 setxkbmap -option caps:swapescape
@@ -57,20 +58,20 @@ fi
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
-bspc config border_width         5 
-bspc config window_gap           11 
+bspc config border_width         3 
+bspc config window_gap           10 
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      false 
 bspc config active_border_color  "#88ff00"
 bspc config normal_border_color  "#1E1E1E"
-bspc config focused_border_color "#30b546"
+bspc config focused_border_color "#3F88C5"
 # bspc config focused_border_color "#FF6347"
-bspc config bottom_padding       20 
+bspc config bottom_padding       -9 
 bspc config left_padding         0 
 bspc config right_padding        0
-bspc config top_padding          20 
+bspc config top_padding          30 
 bspc config ignore_ewmh_focus    false
 bspc config click_to_focus      true 
 bspc config focus_by_distance    true
@@ -88,6 +89,7 @@ bspc rule -a Blueman-manager state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Mate-terminal desktop='^2' follow=on
+bspc rule -a kitty desktop='^2' follow=on
 bspc rule -a qBittorrent desktop='^8' follow=on
 bspc rule -a Zeal desktop='^10' follow=on
 bspc rule -a vlc desktop='^5' follow=on

@@ -8,158 +8,162 @@
 
 # All SpaceVim option below [option] section
 [options]
-    # set spacevim theme. by default colorscheme layer is not loaded,
-    # if you want to use more colorscheme, please load the colorscheme
-    # layer
-    colorscheme = "gruvbox8"
-    enable_neomake = false
-    enable_ale = true
-    filemanager="nerdtree"
-    filetree_direction = "left"
-    autocomplete_method = "ycm"
-    colorscheme_bg = "dark"
-    # Disable guicolors in basic mode, many terminal do not support 24bit
-    # true colors
-    enable_guicolors = true 
-    # Disable statusline separator, if you want to use other value, please
-    # install nerd fonts
-    statusline_separator = "fire"
-    buffer_index_type = 4
-    enable_tabline_filetype_icon = true
-    enable_tabline_ft_icon = true 
-    enable_statusline_mode = true 
+# set spacevim theme. by default colorscheme layer is not loaded,
+# if you want to use more colorscheme, please load the colorscheme
+# layer
+colorscheme = "gruvbox8"
+enable_neomake = false
+enable_ale = true
+filemanager="nerdtree"
+filetree_direction = "left"
+autocomplete_method = "ycm"
+colorscheme_bg = "dark"
+# Disable guicolors in basic mode, many terminal do not support 24bit
+# true colors
+enable_guicolors = true 
+# Disable statusline separator, if you want to use other value, please
+# install nerd fonts
+statusline_separator = "fire"
+buffer_index_type = 4
+enable_tabline_filetype_icon = true
+enable_neomake = true
+enable_ale = false
+enable_tabline_ft_icon = true 
+enable_statusline_mode = true 
+enable_ycm = true 
+enable_vimfiler_gitstatus = true
+enable_os_fileformat_icon = true
+enable_javacomplete2_py = 1
 
 # Enable autocomplete layer
 [[layers]]
-  name = 'autocomplete'
-  auto_completion_return_key_behavior = "complete"
-  auto_completion_tab_key_behavior = "smart"
+name = 'autocomplete'
+auto_completion_return_key_behavior = "complete"
+auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
-  name = "fzf"
+name = "fzf"
 
 [[layers]]
-  name = 'shell'
-  default_position = 'top'
-  default_height = 30
+name = 'shell'
+default_position = 'top'
+default_height = 30
 
 [[layers]]
-  name = 'core'
-  filetree_show_hidden = true
+name = 'core'
+filetree_show_hidden = true
 
 [[layers]]
-  name = "lang#markdown"
-  
-[[layers]]
-  name = "tools"
+name = "lang#markdown"
 
 [[layers]]
-  name = "tmux"
+name = "tools"
 
 [[layers]]
-  name = "colorscheme"
+name = "tmux"
 
 [[layers]]
-  name = "lang#vim"
+name = "colorscheme"
 
 [[layers]]
-  name = "lang#java"
+name = "lang#vim"
 
 [[layers]]
-  name = "lsp"
-  filetypes = [
-    "java"
-  ]
-  [layers.override_cmd]
-    java = [
-    "java",
-    "-Declipse.application=org.eclipse.jdt.ls.core.id1",
-    "-Dosgi.bundles.defaultStartLevel=4",
-    "-Declipse.product=org.eclipse.jdt.ls.core.product",
-    "-Dlog.protocol=true",
-    "-Dlog.level=NONE",
-    "-noverify",
-    "-Xmx4256m",
-    "-jar",
-    "/home/brown/jdt-language-server/plugins/org.eclipse.equinox.launcher_1.6.200.v20210416-2027.jar",
-    "-configuration",
-    "/home/brown/jdt-language-server/config_linux",
-    "-data",
-    "/home/brown/.cache/javalsp"
-    ]
+name = "lang#java"
+
+[[layers]]
+name = "lsp"
+filetypes = [
+  "java"
+]
+[layers.override_cmd]
+java = [
+  "java",
+  "-Declipse.application=org.eclipse.jdt.ls.core.id1",
+  "-Dosgi.bundles.defaultStartLevel=4",
+  "-Declipse.product=org.eclipse.jdt.ls.core.product",
+  "-Dlog.protocol=true",
+  "-Dlog.level=NONE",
+  "-noverify",
+  "-Xmx4256m",
+  "-jar",
+  "/home/brown/jdt-language-server/plugins/org.eclipse.equinox.launcher_1.6.200.v20210416-2027.jar",
+  "-configuration",
+  "/home/brown/jdt-language-server/config_linux",
+  "-data",
+  "/home/brown/.cache/javalsp"
+]
 
 
 [[layers]]
-  name = "lang#php"
+name = "lang#php"
 
 [[layers]]
-  name = "lang#c"
-  clang_executable = "/usr/bin/clang"
+name = "lang#c"
+clang_executable = "/usr/bin/clang"
 
 [[layers]]
-  name = "lang#javascript"
+name = "lang#javascript"
 
 [[layers]]
-  name = "VersionControl"
+name = "VersionControl"
 
 [[layers]]
-  name = "git"
-  git-plugin = "fugitive"
+name = "git"
+git-plugin = "fugitive"
 
 [[layers]]
-  name = 'lang#python'
-  python_interpreter = '/usr/bin/python3'
+name = 'lang#python'
+python_interpreter = '/usr/bin/python3'
 
 [[layers]]
-  name = "lang#html"
+name = "lang#html"
 
 [[layers]]
-  name = "lang#latex"
+name = "lang#latex"
 
 [[layers]]
-  name = "debug"
+name = "debug"
 
 [[custom_plugins]]
-  repo = "lilydjwg/colorizer"
-  on_cmd = ["ColorHighlight", "ColorToggle"]
-  merged = false
+repo = "lilydjwg/colorizer"
+on_cmd = ["ColorHighlight", "ColorToggle"]
+merged = false
 
 [[custom_plugins]]
-  name = 'junegunn/fzf.vim'
-  merged = 0
+name = 'junegunn/fzf.vim'
+merged = 0
 
 [[custom_plugins]]
-  repo = "mhartington/oceanic-next"
-    merged = 0
+repo = "mhartington/oceanic-next"
+merged = 0
 
 [[custom_plugins]]
-  repo = "rafi/awesome-vim-colorschemes"
-  merged = 0
+repo = "rafi/awesome-vim-colorschemes"
+merged = 0
 
 [[custom_plugins]]
-  repo = "altercation/vim-colors-solarized"
-  merged = 0
+repo = "altercation/vim-colors-solarized"
+merged = 0
 
 [[custom_plugins]]
-  repo = "lifepillar/vim-gruvbox8.git"
-  merged = 0
+repo = "lifepillar/vim-gruvbox8.git"
+merged = 0
 
 [[custom_plugins]]
-  repo = "lifepillar/vim-colortemplate"
-  merged = 0
+repo = "lifepillar/vim-colortemplate"
+merged = 0
 
 # [[custom_plugins]]
-  # repo = "octol/vim-cpp-enhanced-highlight"
-  # merged = 0
+# repo = "octol/vim-cpp-enhanced-highlight"
+# merged = 0
 #
 [[custom_plugins]]
-  repo = "ray-x/lsp_signature.nvim"
-  merged = true
+repo = "ray-x/aurora"
+merged = 0
 
 [[custom_plugins]]
-  repo = "ray-x/aurora"
-  merged = 0
+repo = "neovim/nvim-lspconfig"
+merged = true
 
-[[custom_plugins]]
-	name = "rdnetto/YCM-Generator"
-	merged = 0
+
