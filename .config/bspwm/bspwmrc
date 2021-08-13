@@ -1,6 +1,6 @@
 #! /bin/sh
 pgrep -x sxhkd > /dev/null || sxhkd &
-~/.config/polybar/launch.sh --forest
+# ~/.config/polybar/launch.sh --forest
 wmname LG3D &
 # if [ -z "$(pgrep picom)" ] ; then
     # picom --experimental-backends -b &
@@ -9,53 +9,53 @@ wmname LG3D &
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Redshift
-if [ -z "$(pgrep redshift)" ] ; then
-    redshift &
-fi
-
-if [ -z "$(pgrep synapse)" ] ; then
-    synapse -c &
-fi
-
+# if [ -z "$(pgrep redshift)" ] ; then
+    # redshift &
+# fi
+#
+# if [ -z "$(pgrep synapse)" ] ; then
+    # synapse -c &
+# fi
+#
 #~/.config/polybar/launch.sh --cuts
 
 #tray
 setxkbmap -option caps:swapescape
 
 # Power manager
-if [ -z "$(pgrep mate-power-manager)" ] ; then
-    mate-power-manager &
-fi
-
+# if [ -z "$(pgrep mate-power-manager)" ] ; then
+    # mate-power-manager &
+# fi
+#
 #start notifiation daemon
-if [ -z "$(pgrep dunst)" ] ; then
-    dunst -config /home/brown/.config/dunst/dunstrc &
-fi
-
-if [ -z "$(pgrep mate-volume-control-status-icon)" ] ; then
-    mate-volume-control-status-icon &
-fi
-
+# if [ -z "$(pgrep dunst)" ] ; then
+    # dunst -config /home/brown/.config/dunst/dunstrc &
+# fi
+#
+# if [ -z "$(pgrep mate-volume-control-status-icon)" ] ; then
+    # mate-volume-control-status-icon &
+# fi
+#
 # Screensaver
-if [ -z "$(pgrep xscreensaver)" ] ; then
-    xscreensaver -no-splash &
-fi
-
+# if [ -z "$(pgrep xscreensaver)" ] ; then
+    # xscreensaver -no-splash &
+# fi
+#
 # Wallpaper
-if [ -z "$(pgrep nitrogen)" ] ; then
-    nitrogen --set-zoom-fill --random /home/brown/.local/share/wallpapers/ &
-fi
-
+# if [ -z "$(pgrep nitrogen)" ] ; then
+    # nitrogen --set-zoom-fill --random /home/brown/.local/share/wallpapers/ &
+# fi
+#
 # Bluetooth
-if [ -z "$(pgrep blueman-applet)" ] ; then
-   blueman-applet &
-fi
-
+# if [ -z "$(pgrep blueman-applet)" ] ; then
+   # blueman-applet &
+# fi
+#
 # Network Applet
-if [ -z "$(pgrep nm-applet)" ] ; then
-    nm-applet &
-fi
-
+# if [ -z "$(pgrep nm-applet)" ] ; then
+    # nm-applet &
+# fi
+#
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         3 

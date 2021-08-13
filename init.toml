@@ -16,7 +16,7 @@ enable_neomake = false
 enable_ale = true
 filemanager="nerdtree"
 filetree_direction = "left"
-autocomplete_method = "ycm"
+# autocomplete_method = "ycm"
 colorscheme_bg = "dark"
 # Disable guicolors in basic mode, many terminal do not support 24bit
 # true colors
@@ -154,16 +154,11 @@ merged = 0
 repo = "lifepillar/vim-colortemplate"
 merged = 0
 
-# [[custom_plugins]]
-# repo = "octol/vim-cpp-enhanced-highlight"
-# merged = 0
-#
 [[custom_plugins]]
 repo = "ray-x/aurora"
 merged = 0
 
 [[custom_plugins]]
-repo = "neovim/nvim-lspconfig"
-merged = true
-
+repo = "prabirshrestha/vim-lsp"
+merged = 0 
 

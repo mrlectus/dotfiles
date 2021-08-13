@@ -7,12 +7,12 @@ super + Return
     kitty
 # terminal emulator with tmux
 super + shift + Return
-    sh /home/brown/my_tmux	
+    alacritty	
 
 
-# window launcher
-super + shift + d
-    rofi -show window -window-thumbnail -show-icons -theme sidebar -theme-str 
+# Dmenu 
+super + a
+   dmenu_run -b 
 
 # Power menu
 super + p
