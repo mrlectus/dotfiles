@@ -1,0 +1,21 @@
+layout {
+    pane split_direction="vertical" { // first logical container
+        // all these panes will be laid out vertically next to each other
+        pane edit="src/main.rs"
+        pane split_direction="horizontal" { // second logical container
+            // all these panes will be laid out horizontally next to each other
+            pane command="cargo" {
+                args "check"
+                start_suspended true
+            }
+            pane command="cargo" {
+                args "run"
+                start_suspended true
+            }
+            pane command="cargo" {
+                args "test"
+                start_suspended true
+            }
+        }
+    }
+}

@@ -1,0 +1,2249 @@
+[   0.000][v][cplayer] Command line options: '/home/brown/Videos/Series/House MD/House - S02E15 - Clueless.m4v'
+[   0.000][v][cplayer] mpv 0.38.0 Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.000][v][cplayer] libplacebo version: v6.338.2
+[   0.000][v][cplayer] FFmpeg version: n6.1.1
+[   0.000][v][cplayer] FFmpeg library versions:
+[   0.000][v][cplayer]    libavutil       58.29.100
+[   0.000][v][cplayer]    libavcodec      60.31.102
+[   0.000][v][cplayer]    libavformat     60.16.100
+[   0.000][v][cplayer]    libswscale      7.5.100
+[   0.000][v][cplayer]    libavfilter     9.12.100
+[   0.000][v][cplayer]    libswresample   4.12.100
+[   0.000][v][cplayer] 
+[   0.000][v][cplayer] Configuration: -Db_pie=true -Dpython.bytecompile=1 -Dgpl=true -Dcplayer=true -Dlibmpv=true -Dbuild-date=false -Dtests=false -Dta-leak-report=false -Dcdda=enabled -Dcplugins=enabled -Ddvbin=enabled -Ddvdnav=enabled -Diconv=enabled -Djavascript=enabled -Dlcms2=enabled -Dlibarchive=enabled -Dlibavdevice=enabled -Dlibbluray=enabled -Dlua=auto -Dpthread-debug=disabled -Drubberband=enabled -Dsdl2=enabled -Dsdl2-gamepad=enabled -Duchardet=enabled -Duwp=disabled -Dvapoursynth=enabled -Dvector=enabled -Dwin32-threads=disabled -Dzimg=enabled -Dzlib=enabled -Dalsa=enabled -Daudiounit=disabled -Dcoreaudio=disabled -Davfoundation=disabled -Djack=enabled -Dopenal=enabled -Dopensles=disabled -Doss-audio=disabled -Dpipewire=enabled -Dpulse=enabled -Dsdl2-audio=enabled -Dsndio=enabled -Dwasapi=disabled -Dcaca=enabled -Dcocoa=disabled -Dd3d11=disabled -Ddirect3d=disabled -Ddmabuf-wayland=enabled -Ddrm=enabled -Degl=enabled -Degl-android=disabled -Degl-angle=disabled -Degl-angle-lib=disabled -Degl-angle-win32=disabled -Degl-drm=enabled -Degl-wayland=enabled -Degl-x11=enabled -Dgbm=enabled -Dgl=enabled -Dgl-cocoa=disabled -Dgl-dxinterop=disabled -Dgl-win32=disabled -Dgl-x11=enabled -Djpeg=enabled -Dsdl2-video=enabled -Dshaderc=disabled -Dsixel=enabled -Dspirv-cross=disabled -Dplain-gl=enabled -Dvdpau=enabled -Dvdpau-gl-x11=enabled -Dvaapi=enabled -Dvaapi-drm=enabled -Dvaapi-wayland=enabled -Dvaapi-win32=disabled -Dvaapi-x11=enabled -Dvulkan=enabled -Dwayland=enabled -Dx11=enabled -Dxv=enabled -Dandroid-media-ndk=disabled -Dcuda-hwaccel=enabled -Dcuda-interop=enabled -Dd3d-hwaccel=disabled -Dd3d9-hwaccel=disabled -Dgl-dxinterop-d3d9=disabled -Dios-gl=disabled -Dvideotoolbox-gl=disabled -Dvideotoolbox-pl=disabled -Dvulkan-interop=enabled -Dmacos-cocoa-cb=disabled -Dmacos-media-player=disabled -Dmacos-touchbar=disabled -Dswift-build=disabled -Dswift-flags=disabled -Dhtml-build=disabled -Dmanpage-build=enabled -Dpdf-build=disabled -Dprefix=/usr -Dlibexecdir=lib -Dsbindir=bin -Dauto_features=enabled -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.000][v][cplayer] List of enabled features: alsa av-channel-layout avif-muxer caca cdda cplugins cuda-hwaccel cuda-interop dmabuf-interop-gl dmabuf-wayland drm dvbin dvdnav egl egl-drm egl-wayland egl-x11 ffmpeg ffnvcodec gbm gl gl-x11 glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg jpegxl lavu-uuid lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs lua52 memfd-create openal pipewire posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video sixel sndio sndio-1-9 uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vdpau-gl-x11 vector vk-khr-display vt.h vulkan vulkan-interop wayland wayland-protocols-1-27 wayland-protocols-1-31 wayland-protocols-1-32 x11 xv zimg zimg-st428 zlib
+[   0.000][d][global] home path: '' -> '/home/brown/.config/mpv'
+[   0.000][d][global] user path: '~~home/' -> '/home/brown/.config/mpv'
+[   0.000][d][global] user path: '~~old_home/' -> '/home/brown/.mpv'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/home/brown/.config/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/home/brown/.mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -> '/etc/mpv/encoding-profiles.conf'
+[   0.000][v][cplayer] Reading config file /etc/mpv/encoding-profiles.conf
+[   0.000][v][ifo_dvdnav] Opening /etc/mpv/encoding-profiles.conf
+[   0.000][v][bdmv/bluray] Opening /etc/mpv/encoding-profiles.conf
+[   0.000][v][file] Opening /etc/mpv/encoding-profiles.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][v][cplayer] Applying profile 'default'...
+[   0.000][d][global] config path: 'mpv.conf' -> '/home/brown/.config/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/home/brown/.config/mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> '/home/brown/.mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/home/brown/.mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> '/etc/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/etc/mpv/config'
+[   0.000][v][cplayer] Reading config file /home/brown/.config/mpv/mpv.conf
+[   0.000][v][ifo_dvdnav] Opening /home/brown/.config/mpv/mpv.conf
+[   0.000][v][bdmv/bluray] Opening /home/brown/.config/mpv/mpv.conf
+[   0.000][v][file] Opening /home/brown/.config/mpv/mpv.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][e][cplayer] Error parsing option alpha (option not found)
+[   0.000][e][cplayer] /home/brown/.config/mpv/mpv.conf:19: setting option alpha='yes' failed.
+[   0.000][v][cplayer] Applying profile 'default'...
+[   0.000][v][cplayer] Setting option 'save-position-on-quit' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'term-osd-bar' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hr-seek-framedrop' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hwdec' = 'auto' (flags = 4)
+[   0.000][v][cplayer] Setting option 'video-sync' = 'display-resample-vdrop' (flags = 4)
+[   0.000][v][cplayer] Setting option 'log-file' = '/home/brown/.config/mpv/logs/mpv.log' (flags = 4)
+[   0.000][v][cplayer] Setting option 'keep-open-pause' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-border-size' = '1' (flags = 4)
+[   0.000][v][cplayer] Setting option 'tone-mapping-max-boost' = '1' (flags = 4)
+[   0.000][v][cplayer] Setting option 'tone-mapping-param' = '0.3' (flags = 4)
+[   0.000][v][cplayer] Setting option 'tone-mapping' = 'mobius' (flags = 4)
+[   0.000][v][cplayer] Setting option 'brightness' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'saturation' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'border' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'pause' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'volume-max' = '400' (flags = 4)
+[   0.000][v][cplayer] Setting option 'volume' = '130' (flags = 4)
+[   0.000][v][cplayer] Setting option 'audio-pitch-correction' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'term-osd-bar' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'alang' = 'en,eng,jp,jpn' (flags = 4)
+[   0.000][v][cplayer] Setting option 'slang' = 'en,eng,jp,jpn' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-template' = '~~\SPOILER_%F-T%wH.%wM.%wS.%wT-F%{estimated-frame-number}' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-format' = 'png' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-png-compression' = '0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-tag-colorspace' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-high-bit-depth' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-webp-lossless' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-webp-quality' = '100' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-webp-compression' = '6' (flags = 4)
+[   0.000][v][cplayer] Setting option 'cursor-autohide' = '1000' (flags = 4)
+[   0.000][v][cplayer] Setting option 'cache' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'blend-subtitles' = 'yes' (flags = 4)
+[   0.000][d][global] config path: 'input.conf' -> '/home/brown/.config/mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> '/home/brown/.mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> '/etc/mpv/input.conf'
+[   0.000][d][global] user path: '/home/brown/.config/mpv/input.conf' -> '/home/brown/.config/mpv/input.conf'
+[   0.000][v][ifo_dvdnav] Opening /home/brown/.config/mpv/input.conf
+[   0.000][v][bdmv/bluray] Opening /home/brown/.config/mpv/input.conf
+[   0.000][v][file] Opening /home/brown/.config/mpv/input.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][v][input] Parsing input config file /home/brown/.config/mpv/input.conf
+[   0.000][v][input] Input config file /home/brown/.config/mpv/input.conf parsed: 25 binds
+[   0.000][d][global] user path: '/home/brown/.config/mpv/logs/mpv.log' -> '/home/brown/.config/mpv/logs/mpv.log'
+[   0.011][v][cplayer] mpv 0.38.0 Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.011][v][cplayer] libplacebo version: v6.338.2
+[   0.011][v][cplayer] FFmpeg version: n6.1.1
+[   0.011][v][cplayer] FFmpeg library versions:
+[   0.011][v][cplayer]    libavutil       58.29.100
+[   0.011][v][cplayer]    libavcodec      60.31.102
+[   0.011][v][cplayer]    libavformat     60.16.100
+[   0.011][v][cplayer]    libswscale      7.5.100
+[   0.011][v][cplayer]    libavfilter     9.12.100
+[   0.011][v][cplayer]    libswresample   4.12.100
+[   0.011][v][cplayer] 
+[   0.011][v][cplayer] Configuration: -Db_pie=true -Dpython.bytecompile=1 -Dgpl=true -Dcplayer=true -Dlibmpv=true -Dbuild-date=false -Dtests=false -Dta-leak-report=false -Dcdda=enabled -Dcplugins=enabled -Ddvbin=enabled -Ddvdnav=enabled -Diconv=enabled -Djavascript=enabled -Dlcms2=enabled -Dlibarchive=enabled -Dlibavdevice=enabled -Dlibbluray=enabled -Dlua=auto -Dpthread-debug=disabled -Drubberband=enabled -Dsdl2=enabled -Dsdl2-gamepad=enabled -Duchardet=enabled -Duwp=disabled -Dvapoursynth=enabled -Dvector=enabled -Dwin32-threads=disabled -Dzimg=enabled -Dzlib=enabled -Dalsa=enabled -Daudiounit=disabled -Dcoreaudio=disabled -Davfoundation=disabled -Djack=enabled -Dopenal=enabled -Dopensles=disabled -Doss-audio=disabled -Dpipewire=enabled -Dpulse=enabled -Dsdl2-audio=enabled -Dsndio=enabled -Dwasapi=disabled -Dcaca=enabled -Dcocoa=disabled -Dd3d11=disabled -Ddirect3d=disabled -Ddmabuf-wayland=enabled -Ddrm=enabled -Degl=enabled -Degl-android=disabled -Degl-angle=disabled -Degl-angle-lib=disabled -Degl-angle-win32=disabled -Degl-drm=enabled -Degl-wayland=enabled -Degl-x11=enabled -Dgbm=enabled -Dgl=enabled -Dgl-cocoa=disabled -Dgl-dxinterop=disabled -Dgl-win32=disabled -Dgl-x11=enabled -Djpeg=enabled -Dsdl2-video=enabled -Dshaderc=disabled -Dsixel=enabled -Dspirv-cross=disabled -Dplain-gl=enabled -Dvdpau=enabled -Dvdpau-gl-x11=enabled -Dvaapi=enabled -Dvaapi-drm=enabled -Dvaapi-wayland=enabled -Dvaapi-win32=disabled -Dvaapi-x11=enabled -Dvulkan=enabled -Dwayland=enabled -Dx11=enabled -Dxv=enabled -Dandroid-media-ndk=disabled -Dcuda-hwaccel=enabled -Dcuda-interop=enabled -Dd3d-hwaccel=disabled -Dd3d9-hwaccel=disabled -Dgl-dxinterop-d3d9=disabled -Dios-gl=disabled -Dvideotoolbox-gl=disabled -Dvideotoolbox-pl=disabled -Dvulkan-interop=enabled -Dmacos-cocoa-cb=disabled -Dmacos-media-player=disabled -Dmacos-touchbar=disabled -Dswift-build=disabled -Dswift-flags=disabled -Dhtml-build=disabled -Dmanpage-build=enabled -Dpdf-build=disabled -Dprefix=/usr -Dlibexecdir=lib -Dsbindir=bin -Dauto_features=enabled -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.011][v][cplayer] List of enabled features: alsa av-channel-layout avif-muxer caca cdda cplugins cuda-hwaccel cuda-interop dmabuf-interop-gl dmabuf-wayland drm dvbin dvdnav egl egl-drm egl-wayland egl-x11 ffmpeg ffnvcodec gbm gl gl-x11 glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg jpegxl lavu-uuid lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs lua52 memfd-create openal pipewire posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video sixel sndio sndio-1-9 uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vdpau-gl-x11 vector vk-khr-display vt.h vulkan vulkan-interop wayland wayland-protocols-1-27 wayland-protocols-1-31 wayland-protocols-1-32 x11 xv zimg zimg-st428 zlib
+[   0.011][d][osc] Loading lua script @osc.lua...
+[   0.011][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.011][d][stats] Loading lua script @stats.lua...
+[   0.011][d][console] Loading lua script @console.lua...
+[   0.014][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.014][d][osc] loading mp.defaults
+[   0.014][d][ytdl_hook] loading mp.defaults
+[   0.014][d][global] config path: 'scripts' -> '/home/brown/.config/mpv/scripts'
+[   0.014][d][global] config path: 'scripts' -/-> '/home/brown/.mpv/scripts'
+[   0.014][d][stats] loading mp.defaults
+[   0.014][d][auto_profiles] loading mp.defaults
+[   0.014][d][console] loading mp.defaults
+[   0.014][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.014][d][auto_profiles] loading @auto_profiles.lua
+[   0.014][d][global] config path: 'scripts' -> '/etc/mpv/scripts'
+[   0.015][d][osc] loading @osc.lua
+[   0.015][d][stats] loading @stats.lua
+[   0.016][d][ytdl_hook] reading options for ytdl_hook
+[   0.016][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/brown/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.016][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/brown/.mpv/script-opts/ytdl_hook.conf'
+[   0.016][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/etc/mpv/script-opts/ytdl_hook.conf'
+[   0.016][d][ytdl_hook] script-opts/ytdl_hook.conf not found.
+[   0.016][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/brown/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.016][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/brown/.mpv/lua-settings/ytdl_hook.conf'
+[   0.016][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/etc/mpv/lua-settings/ytdl_hook.conf'
+[   0.016][d][ytdl_hook] lua-settings/ytdl_hook.conf not found.
+[   0.016][d][console] loading @console.lua
+[   0.016][d][mpris] Loading cplugin script /etc/mpv/scripts/mpris.so...
+[   0.017][d][autosub] Loading lua script /home/brown/.config/mpv/scripts/autosub.lua...
+[   0.017][v][cplayer] Waiting for scripts...
+[   0.019][d][autosub] loading mp.defaults
+[   0.020][d][stats] reading options for stats
+[   0.020][d][global] config path: 'script-opts/stats.conf' -/-> '/home/brown/.config/mpv/script-opts/stats.conf'
+[   0.020][d][global] config path: 'script-opts/stats.conf' -/-> '/home/brown/.mpv/script-opts/stats.conf'
+[   0.020][d][global] config path: 'script-opts/stats.conf' -/-> '/etc/mpv/script-opts/stats.conf'
+[   0.020][d][stats] script-opts/stats.conf not found.
+[   0.020][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/brown/.config/mpv/lua-settings/stats.conf'
+[   0.020][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/brown/.mpv/lua-settings/stats.conf'
+[   0.020][d][global] config path: 'lua-settings/stats.conf' -/-> '/etc/mpv/lua-settings/stats.conf'
+[   0.020][d][stats] lua-settings/stats.conf not found.
+[   0.021][d][autosub] loading file /home/brown/.config/mpv/scripts/autosub.lua
+[   0.021][d][osc] reading options for osc
+[   0.022][d][global] config path: 'script-opts/osc.conf' -/-> '/home/brown/.config/mpv/script-opts/osc.conf'
+[   0.022][d][global] config path: 'script-opts/osc.conf' -/-> '/home/brown/.mpv/script-opts/osc.conf'
+[   0.022][d][global] config path: 'script-opts/osc.conf' -/-> '/etc/mpv/script-opts/osc.conf'
+[   0.022][d][osc] script-opts/osc.conf not found.
+[   0.022][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/brown/.config/mpv/lua-settings/osc.conf'
+[   0.022][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/brown/.mpv/lua-settings/osc.conf'
+[   0.022][d][global] config path: 'lua-settings/osc.conf' -/-> '/etc/mpv/lua-settings/osc.conf'
+[   0.022][d][osc] lua-settings/osc.conf not found.
+[   0.022][d][console] reading options for console
+[   0.022][d][global] config path: 'script-opts/console.conf' -/-> '/home/brown/.config/mpv/script-opts/console.conf'
+[   0.022][d][global] config path: 'script-opts/console.conf' -/-> '/home/brown/.mpv/script-opts/console.conf'
+[   0.022][d][global] config path: 'script-opts/console.conf' -/-> '/etc/mpv/script-opts/console.conf'
+[   0.022][d][console] script-opts/console.conf not found.
+[   0.022][d][global] config path: 'lua-settings/console.conf' -/-> '/home/brown/.config/mpv/lua-settings/console.conf'
+[   0.022][d][global] config path: 'lua-settings/console.conf' -/-> '/home/brown/.mpv/lua-settings/console.conf'
+[   0.022][d][global] config path: 'lua-settings/console.conf' -/-> '/etc/mpv/lua-settings/console.conf'
+[   0.022][d][console] lua-settings/console.conf not found.
+[   0.022][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="input_autosub", contents="b script-binding autosub/auto_load_subs\n", flags="default"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="input_autosub", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_autosub", contents="", flags="force"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_autosub", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding osc/__keybinding1\nmouse_leave script-binding osc/__keybinding2\n", flags="force"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding osc/__keybinding3\nmouse_leave script-binding osc/__keybinding4\n", flags="force"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding osc/__keybinding5\nshift+mbtn_left script-binding osc/__keybinding6\nmbtn_right script-binding osc/__keybinding7\nmbtn_mid script-binding osc/__keybinding8\nwheel_up script-binding osc/__keybinding9\nwheel_down script-binding osc/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.024][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.024][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding osc/__keybinding11\n", flags="force"]
+[   0.024][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.024][v][cplayer] Set property: user-data/osc/visibility="auto" -> 1
+[   0.024][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.024][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.024][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   0.024][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   0.024][d][osc] osc_init
+[   0.025][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   0.025][d][global] config path: 'fonts' -/-> '/home/brown/.config/mpv/fonts'
+[   0.025][d][global] config path: 'fonts' -/-> '/home/brown/.mpv/fonts'
+[   0.025][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.025][d][osd/libass] ASS library version: 0x1701000 (runtime 0x1702000)
+[   0.025][v][osd/libass] libass API version: 0x1702000
+[   0.025][v][osd/libass] libass source: commit: 0.17.2-0-gcbb48cc4f2f076300004b8b06a86bec55281d0c2-dirty
+[   0.025][v][osd/libass] Shaper: FriBidi 1.0.14 (SIMPLE) HarfBuzz-ng 8.5.0 (COMPLEX)
+[   0.025][d][global] config path: 'subfont.ttf' -/-> '/home/brown/.config/mpv/subfont.ttf'
+[   0.025][d][global] config path: 'subfont.ttf' -/-> '/home/brown/.mpv/subfont.ttf'
+[   0.025][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.025][d][global] config path: 'fonts.conf' -/-> '/home/brown/.config/mpv/fonts.conf'
+[   0.025][d][global] config path: 'fonts.conf' -/-> '/home/brown/.mpv/fonts.conf'
+[   0.025][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.025][v][osd/libass] Setting up fonts...
+[   0.039][v][osd/libass] Using font provider fontconfig
+[   0.039][v][osd/libass] Done.
+[   0.040][v][cplayer] Done loading scripts.
+[   0.040][d][global] state path: 'watch_later' -> '/home/brown/.local/state/mpv/watch_later'
+[   0.042][v][cplayer] Running hook: auto_profiles/on_before_start_file
+[   0.042][d][cplayer] Run command: define-section, flags=64, args=[name="input_osc", contents="", flags="default"]
+[   0.042][d][cplayer] Run command: enable-section, flags=64, args=[name="input_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.042][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_osc", contents="", flags="force"]
+[   0.042][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.042][d][global] state path: 'watch_later' -> '/home/brown/.local/state/mpv/watch_later'
+[   0.042][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.043][v][ytdl_hook] ytdl:// hook
+[   0.044][v][ytdl_hook] not a ytdl:// url
+[   0.044][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.044][v][ytdl_hook] playlist hook
+[   0.044][v][cplayer] Running hook: auto_profiles/on_load
+[   0.044][v][ifo_dvdnav] Opening /home/brown/Videos/Series/House MD/House - S02E15 - Clueless.m4v
+[   0.044][v][bdmv/bluray] Opening /home/brown/Videos/Series/House MD/House - S02E15 - Clueless.m4v
+[   0.044][v][file] Opening /home/brown/Videos/Series/House MD/House - S02E15 - Clueless.m4v
+[   0.044][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.044][d][file] Stream opened successfully.
+[   0.044][v][demux] Trying demuxers for level=normal.
+[   0.044][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.044][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.046][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.046][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.046][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.046][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.046][d][demux] Trying demuxer: libarchive (force-level: normal)
+[   0.049][d][demux] Trying demuxer: lavf (force-level: normal)
+[   0.056][v][lavf] Found 'mov,mp4,m4a,3gp,3g2,mj2' at score=100 size=2048.
+[   0.071][d][osc] osc_init
+[   0.071][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   0.097][v][demux] Detected file format: mov,mp4,m4a,3gp,3g2,mj2 (libavformat)
+[   0.097][v][cplayer] Opening done: /home/brown/Videos/Series/House MD/House - S02E15 - Clueless.m4v
+[   0.097][v][find_files] Loading external files in /home/brown/Videos/Series/House MD/
+[   0.097][d][global] config path: 'sub' -/-> '/home/brown/.config/mpv/sub'
+[   0.097][d][global] config path: 'sub' -/-> '/home/brown/.mpv/sub'
+[   0.097][d][global] config path: 'sub' -/-> '/etc/mpv/sub'
+[   0.098][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.098][v][cplayer] Running hook: auto_profiles/on_preloaded
+[   0.098][v][lavf] select track 0
+[   0.098][v][lavf] select track 1
+[   0.098][i][cplayer]  (+) Video --vid=1 (*) (h264 1280x720 23.976fps)
+[   0.098][i][cplayer]  (+) Audio --aid=1 (*) (aac 2ch 48000Hz)
+[   0.098][v][vo/gpu] Probing for best GPU context.
+[   0.098][v][vo/gpu/opengl] Initializing GPU context 'wayland'
+[   0.099][v][vo/gpu/wayland] Registered for protocol wl_shm
+[   0.099][v][vo/gpu/wayland] Registered for protocol zwp_linux_dmabuf_v1
+[   0.099][v][vo/gpu/wayland] Registered for protocol wl_compositor
+[   0.099][v][vo/gpu/wayland] Registered for protocol wl_subcompositor
+[   0.099][v][vo/gpu/wayland] Registered for protocol wl_data_device_manager
+[   0.099][v][vo/gpu/wayland] Registered for protocol zwp_idle_inhibit_manager_v1
+[   0.099][v][vo/gpu/wayland] Registered for protocol xdg_wm_base
+[   0.099][v][vo/gpu/wayland] Registered for protocol zxdg_decoration_manager_v1
+[   0.099][v][vo/gpu/wayland] Registered for protocol wp_presentation
+[   0.099][v][vo/gpu/wayland] Registered for protocol wp_viewporter
+[   0.099][v][vo/gpu/wayland] Registered for protocol wp_single_pixel_buffer_manager_v1
+[   0.099][v][vo/gpu/wayland] Registered for protocol wp_content_type_manager_v1
+[   0.099][v][vo/gpu/wayland] Registered for protocol wp_fractional_scale_manager_v1
+[   0.099][v][vo/gpu/wayland] Registered for protocol wp_cursor_shape_manager_v1
+[   0.099][v][vo/gpu/wayland] Registered for protocol wl_seat
+[   0.099][v][vo/gpu/wayland] Registered for protocol wl_output
+[   0.100][v][vo/gpu/wayland] Registered output Chimei Innolux Corporation 0x151B (0x30):
+[   0.100][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   0.100][v][vo/gpu/wayland] 	w: 1920px (340mm), h: 1080px (190mm)
+[   0.100][v][vo/gpu/wayland] 	scale: 2
+[   0.100][v][vo/gpu/wayland] 	Hz: 60.001000
+[   0.100][d][vo/gpu/wayland] Requested client-side decorations but compositor responded with server-side. It is likely that compositor wants us to stay in a given mode.
+[   0.100][v][vo/gpu/wayland] Enabling server decorations
+[   0.113][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: yuv420p
+[   0.149][d][ffmpeg] AVIOContext: Statistics: 1521952 bytes read, 0 seeks
+[   0.276][v][vo/gpu/opengl] EGL_VERSION=1.5
+[   0.276][v][vo/gpu/opengl] EGL_VENDOR=Mesa Project
+[   0.276][v][vo/gpu/opengl] EGL_CLIENT_APIS=OpenGL OpenGL_ES 
+[   0.276][v][vo/gpu/opengl] Trying to create Desktop OpenGL context.
+[   0.277][d][vo/gpu/opengl] Chosen EGLConfig:
+[   0.277][d][vo/gpu/opengl]   EGL_CONFIG_ID=0x11
+[   0.277][d][vo/gpu/opengl]   EGL_RED_SIZE=0xa
+[   0.277][d][vo/gpu/opengl]   EGL_GREEN_SIZE=0xa
+[   0.277][d][vo/gpu/opengl]   EGL_BLUE_SIZE=0xa
+[   0.277][d][vo/gpu/opengl]   EGL_ALPHA_SIZE=0x0
+[   0.277][d][vo/gpu/opengl]   EGL_COLOR_BUFFER_TYPE=0x308e
+[   0.277][d][vo/gpu/opengl]   EGL_CONFIG_CAVEAT=0x3038
+[   0.277][d][vo/gpu/opengl]   EGL_CONFORMANT=0x4d
+[   0.277][d][vo/gpu/opengl]   EGL_NATIVE_VISUAL_ID=0x0
+[   0.280][v][vo/gpu/wayland] GL_VERSION='4.6 (Core Profile) Mesa 24.1.1-arch1.1'
+[   0.280][v][vo/gpu/wayland] Detected desktop OpenGL 4.6.
+[   0.280][v][vo/gpu/wayland] GL_VENDOR='AMD'
+[   0.280][v][vo/gpu/wayland] GL_RENDERER='AMD Radeon Vega 3 Graphics (radeonsi, raven2, LLVM 17.0.6, DRM 3.57, 6.8.8-AMD)'
+[   0.280][v][vo/gpu/wayland] GL_SHADING_LANGUAGE_VERSION='4.60'
+[   0.280][d][vo/gpu/wayland] Combined OpenGL extensions string:
+[   0.280][d][vo/gpu/wayland] EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_buffer_age EGL_EXT_config_select_group EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_present_opaque EGL_EXT_protected_surface EGL_EXT_query_reset_notification_strategy EGL_EXT_swap_buffers_with_damage EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_gl_interop EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_MESA_x11_native_visual_id EGL_WL_bind_wayland_display EGL_WL_create_wayland_buffer_from_image  GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+[   0.280][v][vo/gpu/wayland] Loaded extension GL_NV_vdpau_interop.
+[   0.280][v][vo/gpu/wayland] Loaded extension GL_KHR_debug.
+[   0.287][d][vo/gpu/opengl] Texture formats:
+[   0.287][d][vo/gpu/opengl]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   0.287][d][vo/gpu/opengl]   r8         1*unorm   1B    LF CR ST {8}
+[   0.287][d][vo/gpu/opengl]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   0.287][d][vo/gpu/opengl]   rgb8       3*unorm   3B    LF CR ST {8 8 8}
+[   0.287][d][vo/gpu/opengl]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.287][d][vo/gpu/opengl]   r16        1*unorm   2B    LF CR ST {16}
+[   0.287][d][vo/gpu/opengl]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   0.287][d][vo/gpu/opengl]   rgb16      3*unorm   6B    LF CR ST {16 16 16}
+[   0.287][d][vo/gpu/opengl]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.287][d][vo/gpu/opengl]   r8ui       1*uint    1B       CR ST {8}
+[   0.287][d][vo/gpu/opengl]   rg8ui      2*uint    2B       CR ST {8 8}
+[   0.287][d][vo/gpu/opengl]   rgb8ui     3*uint    3B          ST {8 8 8}
+[   0.287][d][vo/gpu/opengl]   rgba8ui    4*uint    4B       CR ST {8 8 8 8}
+[   0.287][d][vo/gpu/opengl]   r16ui      1*uint    2B       CR ST {16}
+[   0.287][d][vo/gpu/opengl]   rg16ui     2*uint    4B       CR ST {16 16}
+[   0.287][d][vo/gpu/opengl]   rgb16ui    3*uint    6B          ST {16 16 16}
+[   0.287][d][vo/gpu/opengl]   rgba16ui   4*uint    8B       CR ST {16 16 16 16}
+[   0.287][d][vo/gpu/opengl]   r16f       1*float   4B    LF CR ST {32/16}
+[   0.287][d][vo/gpu/opengl]   rg16f      2*float   8B    LF CR ST {32/16 32/16}
+[   0.287][d][vo/gpu/opengl]   rgb16f     3*float  12B    LF CR ST {32/16 32/16 32/16}
+[   0.287][d][vo/gpu/opengl]   rgba16f    4*float  16B    LF CR ST {32/16 32/16 32/16 32/16}
+[   0.287][d][vo/gpu/opengl]   r32f       1*float   4B    LF CR ST {32}
+[   0.287][d][vo/gpu/opengl]   rg32f      2*float   8B    LF CR ST {32 32}
+[   0.287][d][vo/gpu/opengl]   rgb32f     3*float  12B    LF CR ST {32 32 32}
+[   0.287][d][vo/gpu/opengl]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   0.287][d][vo/gpu/opengl]   rgb10_a2   4*unorm   4B    LF CR ST {0/10 0/10 0/10 0/2}
+[   0.287][d][vo/gpu/opengl]   rgba12     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.287][d][vo/gpu/opengl]   rgb10      3*unorm   6B    LF CR ST {16/10 16/10 16/10}
+[   0.287][d][vo/gpu/opengl]   rgb565     3*unorm   2B    LF    ST {0/8 0/8 0/8}
+[   0.287][d][vo/gpu/opengl]  LA = LUMINANCE_ALPHA hack format
+[   0.287][d][vo/gpu/opengl]  LF = linear filterable
+[   0.287][d][vo/gpu/opengl]  CR = can be used for render targets
+[   0.287][d][vo/gpu/opengl]  ST = can be used for storable images
+[   0.287][d][vo/gpu/opengl] Image formats:
+[   0.287][d][vo/gpu/opengl]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   0.287][d][vo/gpu/opengl]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   0.287][d][vo/gpu/opengl]   uyvy422
+[   0.287][d][vo/gpu/opengl]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.287][d][vo/gpu/opengl]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.287][d][vo/gpu/opengl]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   0.287][d][vo/gpu/opengl]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.287][d][vo/gpu/opengl]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   0.287][d][vo/gpu/opengl]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   0.287][d][vo/gpu/opengl]   bgr24 => 1 planes 1x1 8/0 [rgb8] (bgr) [unorm]
+[   0.287][d][vo/gpu/opengl]   rgb24 => 1 planes 1x1 8/0 [rgb8] (rgb) [unorm]
+[   0.287][d][vo/gpu/opengl]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   0.287][d][vo/gpu/opengl]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.287][d][vo/gpu/opengl]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   0.287][d][vo/gpu/opengl]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   0.287][d][vo/gpu/opengl]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   0.287][d][vo/gpu/opengl]   rgb565 => 1 planes 1x1 0/0 [rgb565] (rgb) [unknown]
+[   0.287][d][vo/gpu/opengl]   pal8
+[   0.287][d][vo/gpu/opengl]   vdpau
+[   0.287][d][vo/gpu/opengl]   d3d11
+[   0.287][d][vo/gpu/opengl]   dxva2_vld
+[   0.287][d][vo/gpu/opengl]   mmal
+[   0.287][d][vo/gpu/opengl]   mediacodec
+[   0.287][d][vo/gpu/opengl]   cuda
+[   0.287][d][vo/gpu/opengl]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   0.287][d][vo/gpu/opengl]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   0.287][d][vo/gpu/opengl]   grayaf32 => 2 planes 1x1 32/0 [r16f/r16f] (r/a) [float]
+[   0.287][d][vo/gpu/opengl]   yuv444pf => 3 planes 1x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.287][d][vo/gpu/opengl]   yuva444pf => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.287][d][vo/gpu/opengl]   yuv420pf => 3 planes 2x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.287][d][vo/gpu/opengl]   yuva420pf => 4 planes 2x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.287][d][vo/gpu/opengl]   yuv422pf => 3 planes 2x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.287][d][vo/gpu/opengl]   yuva422pf => 4 planes 2x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.287][d][vo/gpu/opengl]   yuv440pf => 3 planes 1x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.287][d][vo/gpu/opengl]   yuva440pf => 4 planes 1x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.287][d][vo/gpu/opengl]   yuv410pf => 3 planes 4x4 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.287][d][vo/gpu/opengl]   yuva410pf => 4 planes 4x4 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.287][d][vo/gpu/opengl]   yuv411pf => 3 planes 4x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.287][d][vo/gpu/opengl]   yuva411pf => 4 planes 4x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.287][d][vo/gpu/opengl]   rgb30 => 1 planes 1x1 10/0 [rgb10_a2] (bgr) [unknown]
+[   0.287][d][vo/gpu/opengl]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   0.287][d][vo/gpu/opengl]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   0.287][d][vo/gpu/opengl]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   0.287][d][vo/gpu/opengl]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   0.287][d][vo/gpu/opengl]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   0.287][d][vo/gpu/opengl]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   0.287][d][vo/gpu/opengl]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   0.287][d][vo/gpu/opengl]   vdpau_output
+[   0.287][d][vo/gpu/opengl]   vaapi
+[   0.287][d][vo/gpu/opengl]   videotoolbox
+[   0.287][d][vo/gpu/opengl]   vulkan
+[   0.287][d][vo/gpu/opengl]   drm_prime
+[   0.287][d][vo/gpu/opengl]   yuyv422
+[   0.287][d][vo/gpu/opengl]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   monow
+[   0.287][d][vo/gpu/opengl]   monob
+[   0.287][d][vo/gpu/opengl]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   uyyvyy411
+[   0.287][d][vo/gpu/opengl]   bgr8
+[   0.287][d][vo/gpu/opengl]   bgr4
+[   0.287][d][vo/gpu/opengl]   bgr4_byte
+[   0.287][d][vo/gpu/opengl]   rgb8
+[   0.287][d][vo/gpu/opengl]   rgb4
+[   0.287][d][vo/gpu/opengl]   rgb4_byte
+[   0.287][d][vo/gpu/opengl]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.287][d][vo/gpu/opengl]   gray16be
+[   0.287][d][vo/gpu/opengl]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.287][d][vo/gpu/opengl]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.287][d][vo/gpu/opengl]   rgb48be
+[   0.287][d][vo/gpu/opengl]   rgb48 => 1 planes 1x1 16/0 [rgb16] (rgb) [unorm]
+[   0.288][d][vo/gpu/opengl]   rgb565be
+[   0.288][d][vo/gpu/opengl]   rgb555be
+[   0.288][d][vo/gpu/opengl]   rgb555
+[   0.288][d][vo/gpu/opengl]   bgr565be
+[   0.288][d][vo/gpu/opengl]   bgr565
+[   0.288][d][vo/gpu/opengl]   bgr555be
+[   0.288][d][vo/gpu/opengl]   bgr555
+[   0.288][d][vo/gpu/opengl]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv420p16be
+[   0.288][d][vo/gpu/opengl]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv422p16be
+[   0.288][d][vo/gpu/opengl]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv444p16be
+[   0.288][d][vo/gpu/opengl]   rgb444
+[   0.288][d][vo/gpu/opengl]   rgb444be
+[   0.288][d][vo/gpu/opengl]   bgr444
+[   0.288][d][vo/gpu/opengl]   bgr444be
+[   0.288][d][vo/gpu/opengl]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   0.288][d][vo/gpu/opengl]   bgr48be
+[   0.288][d][vo/gpu/opengl]   bgr48 => 1 planes 1x1 16/0 [rgb16] (bgr) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv420p9be
+[   0.288][d][vo/gpu/opengl]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv420p10be
+[   0.288][d][vo/gpu/opengl]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv422p10be
+[   0.288][d][vo/gpu/opengl]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv444p9be
+[   0.288][d][vo/gpu/opengl]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv444p10be
+[   0.288][d][vo/gpu/opengl]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv422p9be
+[   0.288][d][vo/gpu/opengl]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrp9be
+[   0.288][d][vo/gpu/opengl]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrp10be
+[   0.288][d][vo/gpu/opengl]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrp16be
+[   0.288][d][vo/gpu/opengl]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva420p9be
+[   0.288][d][vo/gpu/opengl]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva422p9be
+[   0.288][d][vo/gpu/opengl]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva444p9be
+[   0.288][d][vo/gpu/opengl]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva420p10be
+[   0.288][d][vo/gpu/opengl]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva422p10be
+[   0.288][d][vo/gpu/opengl]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva444p10be
+[   0.288][d][vo/gpu/opengl]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva420p16be
+[   0.288][d][vo/gpu/opengl]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva422p16be
+[   0.288][d][vo/gpu/opengl]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva444p16be
+[   0.288][d][vo/gpu/opengl]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   xyz12 => 1 planes 1x1 16/4 [rgb16] (rgb) [unorm]
+[   0.288][d][vo/gpu/opengl]   xyz12be
+[   0.288][d][vo/gpu/opengl]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   nv20be
+[   0.288][d][vo/gpu/opengl]   rgba64be
+[   0.288][d][vo/gpu/opengl]   bgra64be
+[   0.288][d][vo/gpu/opengl]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   0.288][d][vo/gpu/opengl]   yvyu422
+[   0.288][d][vo/gpu/opengl]   ya16be
+[   0.288][d][vo/gpu/opengl]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrap16be
+[   0.288][d][vo/gpu/opengl]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   qsv
+[   0.288][d][vo/gpu/opengl]   d3d11va_vld
+[   0.288][d][vo/gpu/opengl]   yuv420p12be
+[   0.288][d][vo/gpu/opengl]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv420p14be
+[   0.288][d][vo/gpu/opengl]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv422p12be
+[   0.288][d][vo/gpu/opengl]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv422p14be
+[   0.288][d][vo/gpu/opengl]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv444p12be
+[   0.288][d][vo/gpu/opengl]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv444p14be
+[   0.288][d][vo/gpu/opengl]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrp12be
+[   0.288][d][vo/gpu/opengl]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrp14be
+[   0.288][d][vo/gpu/opengl]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   bayer_bggr8
+[   0.288][d][vo/gpu/opengl]   bayer_rggb8
+[   0.288][d][vo/gpu/opengl]   bayer_gbrg8
+[   0.288][d][vo/gpu/opengl]   bayer_grbg8
+[   0.288][d][vo/gpu/opengl]   bayer_bggr16
+[   0.288][d][vo/gpu/opengl]   bayer_bggr16be
+[   0.288][d][vo/gpu/opengl]   bayer_rggb16
+[   0.288][d][vo/gpu/opengl]   bayer_rggb16be
+[   0.288][d][vo/gpu/opengl]   bayer_gbrg16
+[   0.288][d][vo/gpu/opengl]   bayer_gbrg16be
+[   0.288][d][vo/gpu/opengl]   bayer_grbg16
+[   0.288][d][vo/gpu/opengl]   bayer_grbg16be
+[   0.288][d][vo/gpu/opengl]   xvmc
+[   0.288][d][vo/gpu/opengl]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv440p10be
+[   0.288][d][vo/gpu/opengl]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuv440p12be
+[   0.288][d][vo/gpu/opengl]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   0.288][d][vo/gpu/opengl]   ayuv64be
+[   0.288][d][vo/gpu/opengl]   p010be
+[   0.288][d][vo/gpu/opengl]   gbrap12be
+[   0.288][d][vo/gpu/opengl]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrap10be
+[   0.288][d][vo/gpu/opengl]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   gray12be
+[   0.288][d][vo/gpu/opengl]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   0.288][d][vo/gpu/opengl]   gray10be
+[   0.288][d][vo/gpu/opengl]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   0.288][d][vo/gpu/opengl]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   p016be
+[   0.288][d][vo/gpu/opengl]   gray9be
+[   0.288][d][vo/gpu/opengl]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrpf32be
+[   0.288][d][vo/gpu/opengl]   gbrpf32 => 3 planes 1x1 32/0 [r16f/r16f/r16f] (g/b/r) [float]
+[   0.288][d][vo/gpu/opengl]   gbrapf32be
+[   0.288][d][vo/gpu/opengl]   gbrapf32 => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (g/b/r/a) [float]
+[   0.288][d][vo/gpu/opengl]   opencl
+[   0.288][d][vo/gpu/opengl]   gray14be
+[   0.288][d][vo/gpu/opengl]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   0.288][d][vo/gpu/opengl]   grayf32be
+[   0.288][d][vo/gpu/opengl]   grayf32 => 1 planes 1x1 32/0 [r16f] (r) [float]
+[   0.288][d][vo/gpu/opengl]   yuva422p12be
+[   0.288][d][vo/gpu/opengl]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   yuva444p12be
+[   0.288][d][vo/gpu/opengl]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.288][d][vo/gpu/opengl]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.288][d][vo/gpu/opengl]   y210be
+[   0.288][d][vo/gpu/opengl]   y210
+[   0.288][d][vo/gpu/opengl]   x2rgb10be
+[   0.288][d][vo/gpu/opengl]   x2bgr10
+[   0.288][d][vo/gpu/opengl]   x2bgr10be
+[   0.288][d][vo/gpu/opengl]   p210be
+[   0.288][d][vo/gpu/opengl]   p210 => 2 planes 2x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   p410be
+[   0.288][d][vo/gpu/opengl]   p410 => 2 planes 1x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   p216be
+[   0.288][d][vo/gpu/opengl]   p216 => 2 planes 2x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   p416be
+[   0.288][d][vo/gpu/opengl]   p416 => 2 planes 1x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   vuya => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.288][d][vo/gpu/opengl]   rgbaf16be
+[   0.288][d][vo/gpu/opengl]   rgbaf16
+[   0.288][d][vo/gpu/opengl]   vuyx => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.288][d][vo/gpu/opengl]   p012 => 2 planes 2x2 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   p012be
+[   0.288][d][vo/gpu/opengl]   y212be
+[   0.288][d][vo/gpu/opengl]   y212
+[   0.288][d][vo/gpu/opengl]   xv30be
+[   0.288][d][vo/gpu/opengl]   xv30
+[   0.288][d][vo/gpu/opengl]   xv36be
+[   0.288][d][vo/gpu/opengl]   xv36 => 1 planes 1x1 16/4 [rgba16] (grb) [unorm]
+[   0.288][d][vo/gpu/opengl]   rgbf32be
+[   0.288][d][vo/gpu/opengl]   rgbf32
+[   0.288][d][vo/gpu/opengl]   rgbaf32be
+[   0.288][d][vo/gpu/opengl]   rgbaf32
+[   0.288][d][vo/gpu/opengl]   p212be
+[   0.288][d][vo/gpu/opengl]   p212 => 2 planes 2x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   p412be
+[   0.288][d][vo/gpu/opengl]   p412 => 2 planes 1x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.288][d][vo/gpu/opengl]   gbrap14be
+[   0.288][d][vo/gpu/opengl]   gbrap14 => 4 planes 1x1 16/-2 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.288][v][vo/gpu] Testing FBO format rgba16f
+[   0.288][d][vo/gpu] Resizing texture: 16x16
+[   0.289][v][vo/gpu] Using FBO format rgba16f.
+[   0.289][d][global] cache path: '' -> '/home/brown/.cache/mpv'
+[   0.294][v][vo/gpu] Resize: 0x0
+[   0.294][v][vo/gpu] Assuming 60.001000 FPS for display sync.
+[   0.294][v][vd] Container reported FPS: 23.976001
+[   0.294][v][vd] Codec list:
+[   0.294][v][vd]     h264 - H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+[   0.294][v][vd]     h264_v4l2m2m (h264) - V4L2 mem2mem H.264 decoder wrapper
+[   0.294][v][vd]     h264_qsv (h264) - H264 video (Intel Quick Sync Video acceleration)
+[   0.294][v][vd]     h264_cuvid (h264) - Nvidia CUVID H264 decoder
+[   0.294][v][vd] Opening decoder h264
+[   0.294][v][vd] Looking at hwdec h264-nvdec...
+[   0.294][v][vo/gpu] Loading hwdec drivers for format: 'cuda'
+[   0.294][v][vo/gpu] Loading hwdec driver 'cuda'
+[   0.295][v][vo/gpu/cuda] Failed to load CUDA symbols
+[   0.295][v][vo/gpu] Loading failed.
+[   0.295][v][vd] Could not create device.
+[   0.295][v][vd] Looking at hwdec h264-vaapi...
+[   0.295][v][vo/gpu] Loading hwdec drivers for format: 'vaapi'
+[   0.295][v][vo/gpu] Loading hwdec driver 'vaapi'
+[   0.295][v][vo/gpu/vaapi] Using EGL dmabuf interop via GL_EXT_EGL_image_storage
+[   0.295][v][vo/gpu/vaapi] Trying to open a x11 VA display...
+[   0.295][v][vo/gpu/vaapi] Trying to open a wayland VA display...
+[   0.306][v][vo/gpu/vaapi/vaapi] libva: VA-API version 1.21.0
+[   0.307][v][vo/gpu/vaapi/vaapi] libva: User environment variable requested driver 'radeonsi'
+[   0.307][v][vo/gpu/vaapi/vaapi] libva: Trying to open /usr/lib/dri/radeonsi_drv_video.so
+[   0.313][v][vo/gpu/vaapi/vaapi] libva: Found init function __vaDriverInit_1_21
+[   0.336][v][vo/gpu/vaapi/vaapi] libva: va_openDriver() returns 0
+[   0.336][v][vo/gpu/vaapi/vaapi] Initialized VAAPI: version 1.21
+[   0.336][d][ffmpeg] AVHWDeviceContext: VAAPI driver: Mesa Gallium driver 24.1.1-arch1.1 for AMD Radeon Vega 3 Graphics (radeonsi, raven2, LLVM 17.0.6, DRM 3.57, 6.8.8-AMD).
+[   0.336][d][ffmpeg] AVHWDeviceContext: Driver not found in known nonstandard list, using standard behaviour.
+[   0.336][v][vo/gpu/vaapi] Going to probe surface formats (may log bogus errors)...
+[   0.351][d][vo/gpu/vaapi] Failed to create mapper
+[   0.351][d][vo/gpu/vaapi] Unsupported format: yuyv422
+[   0.351][d][vo/gpu/vaapi] Failed to create mapper
+[   0.351][d][vo/gpu/vaapi] Unsupported format: uyvy422
+[   0.354][d][vo/gpu/vaapi] vaExportSurfaceHandle() failed (an unsupported memory type was supplied)
+[   0.354][d][vo/gpu/vaapi] Unsupported format: argb
+[   0.354][d][vo/gpu/vaapi] Supported formats:
+[   0.354][d][vo/gpu/vaapi]  nv12
+[   0.354][d][vo/gpu/vaapi]  p010
+[   0.354][d][vo/gpu/vaapi]  yuv420p
+[   0.354][d][vo/gpu/vaapi]  gray
+[   0.354][d][vo/gpu/vaapi]  yuv444p
+[   0.354][d][vo/gpu/vaapi]  bgra
+[   0.354][d][vo/gpu/vaapi]  rgba
+[   0.354][d][vo/gpu/vaapi]  bgr0
+[   0.354][d][vo/gpu/vaapi]  rgb0
+[   0.354][v][vo/gpu/vaapi] Done probing surface formats.
+[   0.354][v][vd] Trying hardware decoding via h264-vaapi.
+[   0.355][v][vd] Selected codec: H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+[   0.355][v][vf] User filter list:
+[   0.355][v][vf]   (empty)
+[   0.355][v][ad] Codec list:
+[   0.355][v][ad]     aac - AAC (Advanced Audio Coding)
+[   0.355][v][ad]     aac_fixed (aac) - AAC (Advanced Audio Coding)
+[   0.356][v][ad] Opening decoder aac
+[   0.356][v][ad] Requesting 1 threads for decoding.
+[   0.356][v][ad] Selected codec: AAC (Advanced Audio Coding)
+[   0.356][v][af] User filter list:
+[   0.356][v][af]   (empty)
+[   0.356][v][cplayer] Starting playback...
+[   0.357][d][lavf] stream 1: resize index to 128
+[   0.358][d][osc] osc_init
+[   0.358][d][global] config path: 'fonts' -/-> '/home/brown/.config/mpv/fonts'
+[   0.358][d][global] config path: 'fonts' -/-> '/home/brown/.mpv/fonts'
+[   0.358][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.358][d][osd/libass] ASS library version: 0x1701000 (runtime 0x1702000)
+[   0.358][v][osd/libass] libass API version: 0x1702000
+[   0.358][v][osd/libass] libass source: commit: 0.17.2-0-gcbb48cc4f2f076300004b8b06a86bec55281d0c2-dirty
+[   0.359][v][osd/libass] Shaper: FriBidi 1.0.14 (SIMPLE) HarfBuzz-ng 8.5.0 (COMPLEX)
+[   0.359][d][global] config path: 'subfont.ttf' -/-> '/home/brown/.config/mpv/subfont.ttf'
+[   0.359][d][global] config path: 'subfont.ttf' -/-> '/home/brown/.mpv/subfont.ttf'
+[   0.359][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.359][d][global] config path: 'fonts.conf' -/-> '/home/brown/.config/mpv/fonts.conf'
+[   0.359][d][global] config path: 'fonts.conf' -/-> '/home/brown/.mpv/fonts.conf'
+[   0.359][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.359][v][osd/libass] Setting up fonts...
+[   0.365][d][lavf] stream 0: resize index to 128
+[   0.377][v][osd/libass] Using font provider fontconfig
+[   0.377][v][osd/libass] Done.
+[   0.379][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   0.380][v][af] [in] 48000Hz stereo 2ch floatp
+[   0.380][v][af] [userspeed] 48000Hz stereo 2ch floatp
+[   0.380][v][af] [userspeed] (disabled)
+[   0.380][v][af] [convert] 48000Hz stereo 2ch floatp
+[   0.381][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[   0.381][v][vd] Codec profile: Constrained Baseline (0x242)
+[   0.385][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[   0.385][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[   0.415][i][vd] Using hardware decoding (vaapi).
+[   0.415][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[   0.415][v][vd] Using container aspect ratio.
+[   0.415][v][vf] [in] 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x720+0+0
+[   0.415][v][vf] [userdeint] 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x720+0+0
+[   0.415][v][vf] [userdeint] (disabled)
+[   0.415][v][vf] [autorotate] 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x720+0+0
+[   0.415][v][vf] [autorotate] (disabled)
+[   0.415][v][vf] [convert] 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x720+0+0
+[   0.415][v][vo/gpu] Loading hwdec drivers for format: 'vaapi'
+[   0.415][d][hwupload] looking at format vaapi/nv12
+[   0.415][d][hwupload]   vo accepts nv12
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/p010
+[   0.415][d][hwupload]   vo accepts p010
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/yuv420p
+[   0.415][d][hwupload]   vo accepts yuv420p
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/yuyv422
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/uyvy422
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/gray
+[   0.415][d][hwupload]   vo accepts gray
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/yuv444p
+[   0.415][d][hwupload]   vo accepts yuv444p
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/bgra
+[   0.415][d][hwupload]   vo accepts bgra
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/rgba
+[   0.415][d][hwupload]   vo accepts rgba
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/argb
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/bgr0
+[   0.415][d][hwupload]   vo accepts bgr0
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.415][d][hwupload] looking at format vaapi/rgb0
+[   0.415][d][hwupload]   vo accepts rgb0
+[   0.415][d][hwupload]   supports: bgra rgba bgr0 rgb0 nv12 p010
+[   0.416][v][vf] [out] 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x720+0+0
+[   0.416][v][ao] Trying audio driver 'pipewire'
+[   0.416][v][ao/pipewire] requested format: 48000 Hz, stereo channels, floatp
+[   0.418][v][ao/pipewire] Headers version: 1.0.5
+[   0.418][v][ao/pipewire] Library version: 1.0.7
+[   0.441][v][ao/pipewire] Core user: brown
+[   0.441][v][ao/pipewire] Core host: mrlectus
+[   0.441][v][ao/pipewire] Core version: 1.0.7
+[   0.441][v][ao/pipewire] Core name: pipewire-0
+[   0.444][d][ao/pipewire] Stream state changed: old_state=unconnected state=connecting error=(null)
+[   0.446][v][ao/pipewire] using soft-buffer of 9600 samples.
+[   0.446][i][cplayer] AO: [pipewire] 48000Hz stereo 2ch floatp
+[   0.446][v][cplayer] AO: Description: PipeWire audio output
+[   0.448][v][af] [convert] (disabled)
+[   0.448][v][af] [out] 48000Hz stereo 2ch floatp
+[   0.454][d][ao/pipewire] Stream state changed: old_state=connecting state=paused error=(null)
+[   0.458][i][cplayer] VO: [gpu] 1280x720 => 1280x722 vaapi[nv12]
+[   0.461][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   0.461][v][vo/gpu] reconfig to 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x720+0+0
+[   0.461][v][vo/gpu/wayland] Reconfiguring!
+[   0.461][d][vo/gpu] max content size: 1920x1080
+[   0.461][d][vo/gpu] monitor size: 1920x1080
+[   0.463][v][vo/gpu] Resize: 1280x722
+[   0.463][v][vo/gpu] Window size: 1280x722 (Borders: l=0 t=0 r=0 b=0)
+[   0.463][v][vo/gpu] Video source: 1280x720 (319:320)
+[   0.463][v][vo/gpu] Video display: (0, 0) 1280x720 -> (0, 0) 1280x722
+[   0.463][v][vo/gpu] Video scale: 1.000000/1.002778
+[   0.463][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.463][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.463][v][vo/gpu] Testing FBO format rgba16f
+[   0.463][d][vo/gpu] Resizing texture: 16x16
+[   0.463][v][vo/gpu] Using FBO format rgba16f.
+[   0.463][v][vo/gpu/wayland] Handling resize on the egl side
+[   0.463][v][vo/gpu] Resize: 1280x722
+[   0.463][v][vo/gpu] Window size: 1280x722 (Borders: l=0 t=0 r=0 b=0)
+[   0.463][v][vo/gpu] Video source: 1280x720 (319:320)
+[   0.463][v][vo/gpu] Video display: (0, 0) 1280x720 -> (0, 0) 1280x722
+[   0.463][v][vo/gpu] Video scale: 1.000000/1.002778
+[   0.463][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.463][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.463][v][vo/gpu] Reported display depth: 10
+[   0.465][d][vo/gpu] Resizing texture: 640x720
+[   0.468][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[   0.471][d][vo/gpu] Trying to load shader from disk...
+[   0.472][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.478][d][vo/gpu] Resizing texture: 1280x720
+[   0.484][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[   0.485][d][vo/gpu] Trying to load shader from disk...
+[   0.493][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.493][d][vo/gpu] Resizing texture: 1280x720
+[   0.494][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[   0.494][d][vo/gpu] Trying to load shader from disk...
+[   0.494][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.510][d][lavf] stream 1: resize index to 256
+[   0.511][d][vo/gpu] Resizing texture: 1280x722
+[   0.515][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[   0.515][d][vo/gpu] Trying to load shader from disk...
+[   0.516][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.516][d][vo/gpu] Resizing texture: 1280x722
+[   0.517][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[   0.517][d][vo/gpu] Trying to load shader from disk...
+[   0.517][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.517][d][vo/gpu] Resizing texture: 1280x722
+[   0.518][v][vo/gpu] Dither to 10.
+[   0.574][d][lavf] stream 1: resize index to 512
+[   0.581][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[   0.581][d][vo/gpu] Trying to load shader from disk...
+[   0.582][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.588][v][vo/gpu/wayland] Surface entered output Chimei Innolux Corporation 0x151B (0x30), scale = 2.000000, refresh rate = 60.001000 Hz
+[   0.588][v][vo/gpu/wayland] Obtained preferred scale, 1.200000, from the compositor.
+[   0.588][d][vo/gpu] max content size: 1920x1080
+[   0.588][d][vo/gpu] monitor size: 1920x1080
+[   0.588][v][vo/gpu/wayland] Resizing due to xdg from 1280x722 to 1888x1009
+[   0.588][v][vo/gpu/wayland] Handling resize on the egl side
+[   0.588][v][vo/gpu] Resize: 1888x1009
+[   0.588][v][vo/gpu] Window size: 1888x1009 (Borders: l=0 t=0 r=0 b=0)
+[   0.588][v][vo/gpu] Video source: 1280x720 (319:320)
+[   0.588][v][vo/gpu] Video display: (0, 0) 1280x720 -> (50, 0) 1788x1009
+[   0.588][v][vo/gpu] Video scale: 1.396875/1.401389
+[   0.588][v][vo/gpu] OSD borders: l=50 t=0 r=50 b=0
+[   0.588][v][vo/gpu] Video borders: l=50 t=0 r=50 b=0
+[   0.594][v][vo/gpu] Reported display depth: 10
+[   0.595][v][cplayer] first video frame after restart shown
+[   0.598][d][osc] osc_init
+[   0.599][d][vo/gpu] Resizing texture: 1280x1009
+[   0.600][d][lavf] stream 0: resize index to 256
+[   0.605][d][vo/gpu] Resizing texture: 1788x1009
+[   0.619][d][vo/gpu] Resizing texture: 1888x1009
+[   0.664][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   0.664][v][cplayer] audio ready
+[   0.664][d][cplayer] starting video playback
+[   0.664][v][cplayer] delaying audio start 0.021333 vs. 0.000000, diff=0.021333
+[   0.664][v][cplayer] playback restart complete @ 0.000000, audio=ready, video=playing (paused)
+[   0.665][d][osc] osc_init
+[   0.668][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   0.735][d][lavf] stream 1: resize index to 1024
+[   0.963][v][vo/gpu/wayland] Given DND offer with mime type text/plain
+[   0.964][v][vo/gpu/wayland] Given DND offer with mime type text/plain;charset=utf-8
+[   0.964][v][vo/gpu/wayland] Received a new DND offer. Releasing the previous offer.
+[   1.955][d][cplayer] Run command: cycle, flags=73, args=[name="pause", value="1.000000"]
+[   1.956][v][cplayer] Set property: pause -> 1
+[   1.956][v][vo/gpu/wayland] Enabling idle inhibitor
+[   1.958][v][cplayer] starting audio playback
+[   1.960][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[   1.971][v][autoconvert] inserting resampler
+[   1.971][v][swresample] format change, reinitializing resampler
+[   1.971][v][swresample] 48049Hz stereo floatp -> 48000Hz stereo floatp
+[   1.973][v][af] [convert] (enabled)
+[   2.164][d][cplayer] Run command: cycle, flags=73, args=[name="pause", value="1.000000"]
+[   2.164][v][cplayer] Dropping command 'cycle pause' from auto-repeated key.
+[   2.184][d][cplayer] Run command: cycle, flags=73, args=[name="pause", value="1.000000"]
+[   2.184][v][cplayer] Dropping command 'cycle pause' from auto-repeated key.
+[   2.216][d][cplayer] Run command: cycle, flags=73, args=[name="pause", value="1.000000"]
+[   2.216][v][cplayer] Dropping command 'cycle pause' from auto-repeated key.
+[   2.237][d][cplayer] Run command: cycle, flags=73, args=[name="pause", value="1.000000"]
+[   2.237][v][cplayer] Dropping command 'cycle pause' from auto-repeated key.
+[   2.259][d][cplayer] Run command: cycle, flags=73, args=[name="pause", value="1.000000"]
+[   2.259][v][cplayer] Dropping command 'cycle pause' from auto-repeated key.
+[   3.521][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   3.521][v][cplayer] Set property: volume -> 1
+[   3.529][d][global] config path: 'fonts' -/-> '/home/brown/.config/mpv/fonts'
+[   3.529][d][global] config path: 'fonts' -/-> '/home/brown/.mpv/fonts'
+[   3.529][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   3.529][d][osd/libass] ASS library version: 0x1701000 (runtime 0x1702000)
+[   3.529][v][osd/libass] libass API version: 0x1702000
+[   3.529][v][osd/libass] libass source: commit: 0.17.2-0-gcbb48cc4f2f076300004b8b06a86bec55281d0c2-dirty
+[   3.530][v][osd/libass] Shaper: FriBidi 1.0.14 (SIMPLE) HarfBuzz-ng 8.5.0 (COMPLEX)
+[   3.530][d][global] config path: 'subfont.ttf' -/-> '/home/brown/.config/mpv/subfont.ttf'
+[   3.530][d][global] config path: 'subfont.ttf' -/-> '/home/brown/.mpv/subfont.ttf'
+[   3.530][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   3.530][d][global] config path: 'fonts.conf' -/-> '/home/brown/.config/mpv/fonts.conf'
+[   3.530][d][global] config path: 'fonts.conf' -/-> '/home/brown/.mpv/fonts.conf'
+[   3.530][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   3.530][v][osd/libass] Setting up fonts...
+[   3.546][v][osd/libass] Using font provider fontconfig
+[   3.546][v][osd/libass] Done.
+[   3.547][v][osd/libass] fontselect: (sans-serif, 400, 0) -> /usr/share/fonts/noto/NotoSans-Regular.ttf, 0, NotoSans-Regular
+[   3.549][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[   3.550][v][vo/gpu] Reallocating OSD texture to 2048x256.
+[   3.551][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[   3.551][d][vo/gpu] Trying to load shader from disk...
+[   3.552][d][vo/gpu/opengl] Loading binary program succeeded.
+[   3.897][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   3.897][v][cplayer] Set property: volume -> 1
+[   4.115][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.115][v][cplayer] Set property: volume -> 1
+[   4.129][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.129][v][cplayer] Set property: volume -> 1
+[   4.157][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.157][v][cplayer] Set property: volume -> 1
+[   4.179][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.179][v][cplayer] Set property: volume -> 1
+[   4.200][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.200][v][cplayer] Set property: volume -> 1
+[   4.243][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.243][v][cplayer] Set property: volume -> 1
+[   4.264][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.264][v][cplayer] Set property: volume -> 1
+[   4.286][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.286][v][cplayer] Set property: volume -> 1
+[   4.307][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.307][v][cplayer] Set property: volume -> 1
+[   4.328][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.328][v][cplayer] Set property: volume -> 1
+[   4.349][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.349][v][cplayer] Set property: volume -> 1
+[   4.379][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.379][v][cplayer] Set property: volume -> 1
+[   4.412][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.413][v][cplayer] Set property: volume -> 1
+[   4.435][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.435][v][cplayer] Set property: volume -> 1
+[   4.456][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.456][v][cplayer] Set property: volume -> 1
+[   4.477][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.477][v][cplayer] Set property: volume -> 1
+[   4.499][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.499][v][cplayer] Set property: volume -> 1
+[   4.536][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.537][v][cplayer] Set property: volume -> 1
+[   4.547][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.547][v][cplayer] Set property: volume -> 1
+[   4.579][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.579][v][cplayer] Set property: volume -> 1
+[   4.605][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.605][v][cplayer] Set property: volume -> 1
+[   4.627][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.627][v][cplayer] Set property: volume -> 1
+[   4.648][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.648][v][cplayer] Set property: volume -> 1
+[   4.691][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.691][v][cplayer] Set property: volume -> 1
+[   4.712][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.712][v][cplayer] Set property: volume -> 1
+[   4.733][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.733][v][cplayer] Set property: volume -> 1
+[   4.747][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.747][v][cplayer] Set property: volume -> 1
+[   4.776][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.776][v][cplayer] Set property: volume -> 1
+[   4.797][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.797][v][cplayer] Set property: volume -> 1
+[   4.830][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.830][v][cplayer] Set property: volume -> 1
+[   4.861][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.861][v][cplayer] Set property: volume -> 1
+[   4.880][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.880][v][cplayer] Set property: volume -> 1
+[   4.904][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.904][v][cplayer] Set property: volume -> 1
+[   4.925][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.925][v][cplayer] Set property: volume -> 1
+[   4.947][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.947][v][cplayer] Set property: volume -> 1
+[   4.989][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   4.989][v][cplayer] Set property: volume -> 1
+[   5.011][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   5.011][v][cplayer] Set property: volume -> 1
+[   5.033][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   5.033][v][cplayer] Set property: volume -> 1
+[   5.054][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   5.054][v][cplayer] Set property: volume -> 1
+[   5.075][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   5.075][v][cplayer] Set property: volume -> 1
+[   5.117][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   5.117][v][cplayer] Set property: volume -> 1
+[   5.130][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[   5.130][v][cplayer] Set property: volume -> 1
+[   8.396][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   8.396][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   8.413][v][osd/libass] fontselect: (sans-serif, 400, 0) -> /usr/share/fonts/noto/NotoSans-Regular.ttf, 0, NotoSans-Regular
+[   8.415][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[   8.417][v][vo/gpu] Reallocating OSD texture to 2048x256.
+[   9.343][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[   9.570][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[   9.570][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  10.434][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[  33.403][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.403][v][cplayer] Set property: volume -> 1
+[  33.608][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.608][v][cplayer] Set property: volume -> 1
+[  33.629][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.629][v][cplayer] Set property: volume -> 1
+[  33.672][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.672][v][cplayer] Set property: volume -> 1
+[  33.693][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.693][v][cplayer] Set property: volume -> 1
+[  33.715][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.715][v][cplayer] Set property: volume -> 1
+[  33.728][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.728][v][cplayer] Set property: volume -> 1
+[  33.757][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.757][v][cplayer] Set property: volume -> 1
+[  33.778][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.778][v][cplayer] Set property: volume -> 1
+[  33.812][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.812][v][cplayer] Set property: volume -> 1
+[  33.842][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.843][v][cplayer] Set property: volume -> 1
+[  33.862][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.862][v][cplayer] Set property: volume -> 1
+[  33.880][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.880][v][cplayer] Set property: volume -> 1
+[  33.906][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.907][v][cplayer] Set property: volume -> 1
+[  33.928][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.928][v][cplayer] Set property: volume -> 1
+[  33.970][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.971][v][cplayer] Set property: volume -> 1
+[  33.978][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  33.978][v][cplayer] Set property: volume -> 1
+[  36.268][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.268][v][cplayer] Set property: volume -> 1
+[  36.478][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.478][v][cplayer] Set property: volume -> 1
+[  36.509][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.509][v][cplayer] Set property: volume -> 1
+[  36.528][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.528][v][cplayer] Set property: volume -> 1
+[  36.552][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.552][v][cplayer] Set property: volume -> 1
+[  36.573][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.573][v][cplayer] Set property: volume -> 1
+[  36.595][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.595][v][cplayer] Set property: volume -> 1
+[  36.637][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.637][v][cplayer] Set property: volume -> 1
+[  36.645][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.645][v][cplayer] Set property: volume -> 1
+[  36.680][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.680][v][cplayer] Set property: volume -> 1
+[  36.695][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.695][v][cplayer] Set property: volume -> 1
+[  36.723][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.723][v][cplayer] Set property: volume -> 1
+[  36.744][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.744][v][cplayer] Set property: volume -> 1
+[  36.778][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.778][v][cplayer] Set property: volume -> 1
+[  36.808][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  36.808][v][cplayer] Set property: volume -> 1
+[  37.590][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.590][v][cplayer] Set property: volume -> 1
+[  37.790][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.790][v][cplayer] Set property: volume -> 1
+[  37.832][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.832][v][cplayer] Set property: volume -> 1
+[  37.853][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.853][v][cplayer] Set property: volume -> 1
+[  37.875][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.875][v][cplayer] Set property: volume -> 1
+[  37.895][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.895][v][cplayer] Set property: volume -> 1
+[  37.917][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.917][v][cplayer] Set property: volume -> 1
+[  37.945][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.945][v][cplayer] Set property: volume -> 1
+[  37.978][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  37.978][v][cplayer] Set property: volume -> 1
+[  38.003][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  38.003][v][cplayer] Set property: volume -> 1
+[  38.024][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  38.024][v][cplayer] Set property: volume -> 1
+[  38.046][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  38.046][v][cplayer] Set property: volume -> 1
+[  38.068][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[  38.068][v][cplayer] Set property: volume -> 1
+[  38.660][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  38.661][v][lavf] queuing seek to 41.745000
+[  38.661][v][lavf] cached range 0: 0.000000 <-> 601.685000 (bof=1, eof=0)
+[  38.661][v][lavf] ...using this range for in-cache seek.
+[  38.661][v][lavf] adjust seek target 41.745000 -> 42.292000
+[  38.661][v][lavf] seeking stream 0 (video) to packet 42.292000/42.292000
+[  38.661][v][lavf] seeking stream 1 (audio) to packet 42.282667/42.282667
+[  38.661][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[  38.662][v][vo/gpu/wayland] Disabling the idle inhibitor
+[  38.663][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  38.663][v][vd] Codec profile: Constrained Baseline (0x242)
+[  38.663][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  38.663][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  38.666][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  38.666][v][vd] Using container aspect ratio.
+[  38.695][v][cplayer] first video frame after restart shown
+[  38.696][v][cplayer] audio ready
+[  38.696][d][cplayer] starting video playback
+[  38.696][v][cplayer] starting audio playback
+[  38.696][v][cplayer] playback restart complete @ 42.292000, audio=playing, video=playing
+[  38.696][v][vo/gpu/wayland] Enabling idle inhibitor
+[  38.697][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[  39.154][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  39.154][v][lavf] queuing seek to 47.709000
+[  39.154][v][lavf] cached range 0: 0.000000 <-> 608.734000 (bof=1, eof=0)
+[  39.154][v][lavf] ...using this range for in-cache seek.
+[  39.155][v][lavf] adjust seek target 47.709000 -> 48.841000
+[  39.155][v][lavf] seeking stream 0 (video) to packet 48.841000/48.841000
+[  39.155][v][lavf] seeking stream 1 (audio) to packet 48.832000/48.832000
+[  39.155][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[  39.158][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  39.158][v][vd] Codec profile: Constrained Baseline (0x242)
+[  39.158][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  39.158][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  39.162][v][vo/gpu/wayland] Disabling the idle inhibitor
+[  39.168][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  39.168][v][vd] Using container aspect ratio.
+[  39.196][v][cplayer] first video frame after restart shown
+[  39.199][v][cplayer] audio ready
+[  39.199][d][cplayer] starting video playback
+[  39.199][v][cplayer] starting audio playback
+[  39.199][v][cplayer] playback restart complete @ 48.841000, audio=playing, video=playing
+[  39.199][v][vo/gpu/wayland] Enabling idle inhibitor
+[  39.199][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[  42.750][d][lavf] stream 0: resize index to 512
+[  51.328][d][global] user path: '/home/brown/.cache/mpv' -> '/home/brown/.cache/mpv'
+[  51.329][d][vo/gpu] Trying to load shader from disk...
+[  51.333][d][vo/gpu/opengl] Loading binary program succeeded.
+[  91.379][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  91.379][v][lavf] queuing seek to 106.059000
+[  91.379][v][lavf] cached range 0: 6.256000 <-> 755.672000 (bof=0, eof=0)
+[  91.379][v][lavf] ...using this range for in-cache seek.
+[  91.379][v][lavf] adjust seek target 106.059000 -> 106.356000
+[  91.379][v][lavf] seeking stream 0 (video) to packet 106.356000/106.356000
+[  91.379][v][lavf] seeking stream 1 (audio) to packet 106.346667/106.346667
+[  91.379][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[  91.380][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  91.381][v][vd] Codec profile: Constrained Baseline (0x242)
+[  91.381][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  91.381][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  91.393][v][vo/gpu/wayland] Disabling the idle inhibitor
+[  91.403][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  91.403][v][vd] Using container aspect ratio.
+[  91.443][v][cplayer] first video frame after restart shown
+[  91.444][v][cplayer] audio ready
+[  91.444][d][cplayer] starting video playback
+[  91.444][v][cplayer] starting audio playback
+[  91.444][v][cplayer] playback restart complete @ 106.356000, audio=playing, video=playing
+[  91.444][v][vo/gpu/wayland] Enabling idle inhibitor
+[  91.445][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[  91.948][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  91.948][v][lavf] queuing seek to 111.815000
+[  91.948][v][lavf] cached range 0: 9.760000 <-> 755.672000 (bof=0, eof=0)
+[  91.948][v][lavf] ...using this range for in-cache seek.
+[  91.948][v][lavf] adjust seek target 111.815000 -> 113.697000
+[  91.948][v][lavf] seeking stream 0 (video) to packet 113.697000/113.697000
+[  91.948][v][lavf] seeking stream 1 (audio) to packet 113.685333/113.685333
+[  91.948][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[  91.949][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  91.949][v][vd] Codec profile: Constrained Baseline (0x242)
+[  91.949][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  91.949][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  91.960][v][vo/gpu/wayland] Disabling the idle inhibitor
+[  91.970][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  91.970][v][vd] Using container aspect ratio.
+[  92.010][v][cplayer] first video frame after restart shown
+[  92.012][v][cplayer] audio ready
+[  92.012][d][cplayer] starting video playback
+[  92.012][v][cplayer] starting audio playback
+[  92.012][v][cplayer] playback restart complete @ 113.697000, audio=playing, video=playing
+[  92.012][v][vo/gpu/wayland] Enabling idle inhibitor
+[  92.012][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[  92.168][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  92.168][v][lavf] queuing seek to 118.822000
+[  92.168][v][lavf] cached range 0: 12.095000 <-> 763.722000 (bof=0, eof=0)
+[  92.168][v][lavf] ...using this range for in-cache seek.
+[  92.168][v][lavf] adjust seek target 118.822000 -> 120.037000
+[  92.168][v][lavf] seeking stream 0 (video) to packet 120.037000/120.037000
+[  92.168][v][lavf] seeking stream 1 (audio) to packet 120.021333/120.021333
+[  92.168][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[  92.169][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  92.169][v][vd] Codec profile: Constrained Baseline (0x242)
+[  92.169][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  92.169][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  92.171][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  92.171][v][vd] Using container aspect ratio.
+[  92.177][v][vo/gpu/wayland] Disabling the idle inhibitor
+[  92.210][v][cplayer] first video frame after restart shown
+[  92.210][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  92.210][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  92.211][v][cplayer] audio ready
+[  92.211][d][cplayer] starting video playback
+[  92.211][v][lavf] queuing seek to 130.037000
+[  92.211][v][lavf] cached range 0: 13.889000 <-> 773.232000 (bof=0, eof=0)
+[  92.211][v][lavf] ...using this range for in-cache seek.
+[  92.211][v][lavf] adjust seek target 130.037000 -> 131.715000
+[  92.211][v][lavf] seeking stream 0 (video) to packet 131.715000/131.715000
+[  92.211][v][lavf] seeking stream 1 (audio) to packet 131.712000/131.712000
+[  92.212][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  92.212][v][vd] Codec profile: Constrained Baseline (0x242)
+[  92.212][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  92.212][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  92.213][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  92.213][v][vd] Using container aspect ratio.
+[  92.243][v][cplayer] first video frame after restart shown
+[  92.243][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  92.244][v][cplayer] audio ready
+[  92.244][d][cplayer] starting video playback
+[  92.244][v][lavf] queuing seek to 136.715000
+[  92.244][v][lavf] cached range 0: 21.230000 <-> 792.751000 (bof=0, eof=0)
+[  92.244][v][lavf] ...using this range for in-cache seek.
+[  92.244][v][lavf] adjust seek target 136.715000 -> 141.642000
+[  92.244][v][lavf] seeking stream 0 (video) to packet 141.642000/141.642000
+[  92.244][v][lavf] seeking stream 1 (audio) to packet 141.632000/141.632000
+[  92.245][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  92.245][v][vd] Codec profile: Constrained Baseline (0x242)
+[  92.245][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  92.245][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  92.246][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  92.246][v][vd] Using container aspect ratio.
+[  92.260][v][cplayer] first video frame after restart shown
+[  92.260][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  92.261][v][cplayer] audio ready
+[  92.261][d][cplayer] starting video playback
+[  92.261][v][lavf] queuing seek to 146.642000
+[  92.261][v][lavf] cached range 0: 23.190000 <-> 799.383000 (bof=0, eof=0)
+[  92.261][v][lavf] ...using this range for in-cache seek.
+[  92.261][v][lavf] adjust seek target 146.642000 -> 147.105000
+[  92.261][v][lavf] seeking stream 0 (video) to packet 147.105000/147.105000
+[  92.261][v][lavf] seeking stream 1 (audio) to packet 147.093333/147.093333
+[  92.261][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  92.261][v][vd] Codec profile: Constrained Baseline (0x242)
+[  92.262][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  92.262][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  92.272][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  92.272][v][vd] Using container aspect ratio.
+[  92.294][v][cplayer] first video frame after restart shown
+[  92.294][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  92.295][v][cplayer] audio ready
+[  92.295][d][cplayer] starting video playback
+[  92.295][v][lavf] queuing seek to 152.105000
+[  92.295][v][lavf] cached range 0: 25.984000 <-> 805.138000 (bof=0, eof=0)
+[  92.295][v][lavf] ...using this range for in-cache seek.
+[  92.295][v][lavf] adjust seek target 152.105000 -> 157.115000
+[  92.295][v][lavf] seeking stream 0 (video) to packet 157.115000/157.115000
+[  92.295][v][lavf] seeking stream 1 (audio) to packet 157.098667/157.098667
+[  92.295][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  92.295][v][vd] Codec profile: Constrained Baseline (0x242)
+[  92.295][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  92.295][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  92.298][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  92.298][v][vd] Using container aspect ratio.
+[  92.298][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[  92.344][v][cplayer] first video frame after restart shown
+[  92.344][v][cplayer] audio ready
+[  92.344][d][cplayer] starting video playback
+[  92.344][v][lavf] queuing seek to 162.115000
+[  92.344][v][lavf] cached range 0: 31.240000 <-> 813.105000 (bof=0, eof=0)
+[  92.344][v][lavf] ...using this range for in-cache seek.
+[  92.344][v][lavf] adjust seek target 162.115000 -> 163.163000
+[  92.344][v][lavf] seeking stream 0 (video) to packet 163.163000/163.163000
+[  92.345][v][lavf] seeking stream 1 (audio) to packet 163.157333/163.157333
+[  92.345][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[  92.345][v][vd] Codec profile: Constrained Baseline (0x242)
+[  92.345][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[  92.345][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[  92.346][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[  92.346][v][vd] Using container aspect ratio.
+[  92.377][v][cplayer] first video frame after restart shown
+[  92.377][v][cplayer] audio ready
+[  92.377][d][cplayer] starting video playback
+[  92.377][v][cplayer] starting audio playback
+[  92.377][v][cplayer] playback restart complete @ 163.163000, audio=playing, video=playing
+[  92.377][v][vo/gpu/wayland] Enabling idle inhibitor
+[  92.378][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[  98.668][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  98.668][v][cplayer] Set property: volume -> 1
+[  98.877][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  98.877][v][cplayer] Set property: volume -> 1
+[  98.909][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  98.909][v][cplayer] Set property: volume -> 1
+[  98.919][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  98.919][v][cplayer] Set property: volume -> 1
+[  98.952][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  98.952][v][cplayer] Set property: volume -> 1
+[  98.973][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  98.973][v][cplayer] Set property: volume -> 1
+[  98.993][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  98.993][v][cplayer] Set property: volume -> 1
+[  99.037][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.037][v][cplayer] Set property: volume -> 1
+[  99.043][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.043][v][cplayer] Set property: volume -> 1
+[  99.077][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.077][v][cplayer] Set property: volume -> 1
+[  99.101][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.101][v][cplayer] Set property: volume -> 1
+[  99.122][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.123][v][cplayer] Set property: volume -> 1
+[  99.144][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.144][v][cplayer] Set property: volume -> 1
+[  99.187][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.187][v][cplayer] Set property: volume -> 1
+[  99.208][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[  99.208][v][cplayer] Set property: volume -> 1
+[ 168.537][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 272.334][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 272.338][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 272.435][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 272.652][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 272.652][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 274.456][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 274.469][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 275.467][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[ 275.480][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 275.704][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 275.705][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 278.491][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 314.426][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 321.843][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 321.843][v][cplayer] Set property: volume -> 1
+[ 322.045][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.045][v][cplayer] Set property: volume -> 1
+[ 322.088][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.088][v][cplayer] Set property: volume -> 1
+[ 322.104][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.104][v][cplayer] Set property: volume -> 1
+[ 322.131][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.131][v][cplayer] Set property: volume -> 1
+[ 322.152][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.152][v][cplayer] Set property: volume -> 1
+[ 322.173][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.173][v][cplayer] Set property: volume -> 1
+[ 322.195][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.195][v][cplayer] Set property: volume -> 1
+[ 322.221][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.221][v][cplayer] Set property: volume -> 1
+[ 322.259][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.259][v][cplayer] Set property: volume -> 1
+[ 322.271][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.271][v][cplayer] Set property: volume -> 1
+[ 322.301][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.301][v][cplayer] Set property: volume -> 1
+[ 322.323][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.323][v][cplayer] Set property: volume -> 1
+[ 322.344][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.344][v][cplayer] Set property: volume -> 1
+[ 322.386][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.387][v][cplayer] Set property: volume -> 1
+[ 322.408][d][cplayer] Run command: add, flags=73, args=[name="volume", value="-2.000000"]
+[ 322.408][v][cplayer] Set property: volume -> 1
+[ 544.017][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 544.777][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 571.215][v][vo/gpu/wayland] Received a new DND offer. Releasing the previous offer.
+[ 643.364][v][vo/gpu/wayland] Received a new DND offer. Releasing the previous offer.
+[ 717.137][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 721.310][v][vo/gpu/wayland] Received a new DND offer. Releasing the previous offer.
+[ 900.343][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 900.370][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 901.788][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 901.788][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 901.929][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 901.953][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 903.107][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 903.107][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 903.573][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 903.573][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 903.717][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[ 903.943][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 903.943][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[ 904.548][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[ 912.522][v][vo/gpu/wayland] Received a new DND offer. Releasing the previous offer.
+[ 914.091][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 914.120][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[ 914.981][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[ 914.981][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[1272.862][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1272.870][v][cplayer] Set property: volume -> 1
+[1273.064][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.064][v][cplayer] Set property: volume -> 1
+[1273.097][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.097][v][cplayer] Set property: volume -> 1
+[1273.128][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.128][v][cplayer] Set property: volume -> 1
+[1273.149][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.149][v][cplayer] Set property: volume -> 1
+[1273.171][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.171][v][cplayer] Set property: volume -> 1
+[1273.192][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.192][v][cplayer] Set property: volume -> 1
+[1273.213][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.213][v][cplayer] Set property: volume -> 1
+[1273.256][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.256][v][cplayer] Set property: volume -> 1
+[1273.264][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.264][v][cplayer] Set property: volume -> 1
+[1273.297][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.297][v][cplayer] Set property: volume -> 1
+[1273.320][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.320][v][cplayer] Set property: volume -> 1
+[1273.341][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.341][v][cplayer] Set property: volume -> 1
+[1273.362][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.363][v][cplayer] Set property: volume -> 1
+[1273.405][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.405][v][cplayer] Set property: volume -> 1
+[1273.426][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.427][v][cplayer] Set property: volume -> 1
+[1273.448][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.448][v][cplayer] Set property: volume -> 1
+[1273.464][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.464][v][cplayer] Set property: volume -> 1
+[1273.491][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1273.491][v][cplayer] Set property: volume -> 1
+[1476.633][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1476.634][v][lavf] queuing seek to 1553.841000
+[1476.642][v][lavf] cached range 0: 1311.687000 <-> 2251.084000 (bof=0, eof=0)
+[1476.642][v][lavf] ...using this range for in-cache seek.
+[1476.642][v][lavf] adjust seek target 1553.841000 -> 1559.434000
+[1476.642][v][lavf] seeking stream 0 (video) to packet 1559.434000/1559.434000
+[1476.642][v][lavf] seeking stream 1 (audio) to packet 1559.424000/1559.424000
+[1476.643][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1476.648][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1476.648][v][vd] Codec profile: Constrained Baseline (0x242)
+[1476.648][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1476.649][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1476.658][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1476.670][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1476.670][v][vd] Using container aspect ratio.
+[1476.708][v][cplayer] first video frame after restart shown
+[1476.709][v][cplayer] audio ready
+[1476.709][d][cplayer] starting video playback
+[1476.709][v][cplayer] starting audio playback
+[1476.709][v][cplayer] playback restart complete @ 1559.434000, audio=playing, video=playing
+[1476.709][v][vo/gpu/wayland] Enabling idle inhibitor
+[1476.710][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1476.929][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1476.929][v][lavf] queuing seek to 1564.643000
+[1476.929][v][lavf] cached range 0: 1324.616000 <-> 2261.428000 (bof=0, eof=0)
+[1476.929][v][lavf] ...using this range for in-cache seek.
+[1476.931][v][lavf] adjust seek target 1564.643000 -> 1567.150000
+[1476.931][v][lavf] seeking stream 0 (video) to packet 1567.150000/1567.150000
+[1476.931][v][lavf] seeking stream 1 (audio) to packet 1567.146667/1567.146667
+[1476.931][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1476.934][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1476.935][v][vd] Codec profile: Constrained Baseline (0x242)
+[1476.935][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1476.935][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1476.935][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1476.935][v][vd] Using container aspect ratio.
+[1476.942][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1476.975][v][cplayer] first video frame after restart shown
+[1476.976][v][cplayer] audio ready
+[1476.976][d][cplayer] starting video playback
+[1476.976][v][cplayer] starting audio playback
+[1476.976][v][vo/gpu/wayland] Enabling idle inhibitor
+[1476.976][v][cplayer] playback restart complete @ 1567.150000, audio=playing, video=playing
+[1476.976][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1477.273][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1477.273][v][lavf] queuing seek to 1572.401000
+[1477.273][v][lavf] cached range 0: 1331.957000 <-> 2269.937000 (bof=0, eof=0)
+[1477.273][v][lavf] ...using this range for in-cache seek.
+[1477.274][v][lavf] adjust seek target 1572.401000 -> 1573.407000
+[1477.274][v][lavf] seeking stream 0 (video) to packet 1573.407000/1573.407000
+[1477.274][v][lavf] seeking stream 1 (audio) to packet 1573.397333/1573.397333
+[1477.274][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1477.275][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1477.275][v][vd] Codec profile: Constrained Baseline (0x242)
+[1477.275][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1477.275][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1477.276][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1477.278][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1477.278][v][vd] Using container aspect ratio.
+[1477.308][v][cplayer] first video frame after restart shown
+[1477.310][v][cplayer] audio ready
+[1477.310][d][cplayer] starting video playback
+[1477.310][v][cplayer] starting audio playback
+[1477.310][v][cplayer] playback restart complete @ 1573.407000, audio=playing, video=playing
+[1477.310][v][vo/gpu/wayland] Enabling idle inhibitor
+[1477.311][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1490.966][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1490.966][v][lavf] queuing seek to 1592.045000
+[1490.966][v][lavf] cached range 0: 1363.572000 <-> 2296.547000 (bof=0, eof=0)
+[1490.966][v][lavf] ...using this range for in-cache seek.
+[1490.967][v][lavf] adjust seek target 1592.045000 -> 1592.843000
+[1490.967][v][lavf] seeking stream 0 (video) to packet 1592.843000/1592.843000
+[1490.967][v][lavf] seeking stream 1 (audio) to packet 1592.832000/1592.832000
+[1490.967][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1490.968][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1490.968][v][vd] Codec profile: Constrained Baseline (0x242)
+[1490.968][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1490.968][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1490.975][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1490.982][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1490.982][v][vd] Using container aspect ratio.
+[1491.008][v][cplayer] first video frame after restart shown
+[1491.009][v][cplayer] audio ready
+[1491.009][d][cplayer] starting video playback
+[1491.009][v][cplayer] starting audio playback
+[1491.009][v][cplayer] playback restart complete @ 1592.843000, audio=playing, video=playing
+[1491.009][v][vo/gpu/wayland] Enabling idle inhibitor
+[1491.009][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1491.175][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1491.175][v][lavf] queuing seek to 1597.968000
+[1491.175][v][lavf] cached range 0: 1373.665000 <-> 2305.556000 (bof=0, eof=0)
+[1491.175][v][lavf] ...using this range for in-cache seek.
+[1491.175][v][lavf] adjust seek target 1597.968000 -> 1598.974000
+[1491.175][v][lavf] seeking stream 0 (video) to packet 1598.974000/1598.974000
+[1491.175][v][lavf] seeking stream 1 (audio) to packet 1598.954667/1598.954667
+[1491.175][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1491.177][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1491.177][v][vd] Codec profile: Constrained Baseline (0x242)
+[1491.177][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1491.177][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1491.179][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1491.179][v][vd] Using container aspect ratio.
+[1491.191][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1491.225][v][cplayer] first video frame after restart shown
+[1491.225][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1491.225][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1491.226][v][cplayer] audio ready
+[1491.226][d][cplayer] starting video playback
+[1491.226][v][lavf] queuing seek to 1608.974000
+[1491.226][v][lavf] cached range 0: 1378.253000 <-> 2314.815000 (bof=0, eof=0)
+[1491.226][v][lavf] ...using this range for in-cache seek.
+[1491.226][v][lavf] adjust seek target 1608.974000 -> 1609.651000
+[1491.226][v][lavf] seeking stream 0 (video) to packet 1609.651000/1609.651000
+[1491.226][v][lavf] seeking stream 1 (audio) to packet 1609.642667/1609.642667
+[1491.227][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1491.227][v][vd] Codec profile: Constrained Baseline (0x242)
+[1491.227][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1491.227][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1491.229][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1491.229][v][vd] Using container aspect ratio.
+[1491.241][v][cplayer] first video frame after restart shown
+[1491.242][v][cplayer] audio ready
+[1491.242][d][cplayer] starting video playback
+[1491.242][v][cplayer] starting audio playback
+[1491.242][v][cplayer] playback restart complete @ 1609.651000, audio=playing, video=playing
+[1491.242][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1491.258][v][vo/gpu/wayland] Enabling idle inhibitor
+[1491.749][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1491.749][v][lavf] queuing seek to 1615.110000
+[1491.749][v][lavf] cached range 0: 1393.769000 <-> 2330.247000 (bof=0, eof=0)
+[1491.749][v][lavf] ...using this range for in-cache seek.
+[1491.750][v][lavf] adjust seek target 1615.110000 -> 1615.866000
+[1491.750][v][lavf] seeking stream 0 (video) to packet 1615.866000/1615.866000
+[1491.750][v][lavf] seeking stream 1 (audio) to packet 1615.850667/1615.850667
+[1491.750][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1491.751][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1491.751][v][vd] Codec profile: Constrained Baseline (0x242)
+[1491.751][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1491.751][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1491.758][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1491.768][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1491.768][v][vd] Using container aspect ratio.
+[1491.808][v][cplayer] first video frame after restart shown
+[1491.809][v][cplayer] audio ready
+[1491.809][d][cplayer] starting video playback
+[1491.809][v][cplayer] starting audio playback
+[1491.809][v][cplayer] playback restart complete @ 1615.866000, audio=playing, video=playing
+[1491.809][v][vo/gpu/wayland] Enabling idle inhibitor
+[1491.809][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1491.965][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1491.965][v][lavf] queuing seek to 1620.991000
+[1491.966][v][lavf] cached range 0: 1403.695000 <-> 2334.293000 (bof=0, eof=0)
+[1491.966][v][lavf] ...using this range for in-cache seek.
+[1491.966][v][lavf] adjust seek target 1620.991000 -> 1623.040000
+[1491.966][v][lavf] seeking stream 0 (video) to packet 1623.040000/1623.040000
+[1491.966][v][lavf] seeking stream 1 (audio) to packet 1623.040000/1623.040000
+[1491.966][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1491.967][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1491.967][v][vd] Codec profile: Constrained Baseline (0x242)
+[1491.968][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1491.968][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1491.969][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1491.969][v][vd] Using container aspect ratio.
+[1491.976][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1492.008][v][cplayer] first video frame after restart shown
+[1492.009][v][cplayer] audio ready
+[1492.009][d][cplayer] starting video playback
+[1492.009][v][cplayer] delaying audio start 1623.040022 vs. 1623.040000, diff=0.000022
+[1492.009][v][cplayer] playback restart complete @ 1623.040000, audio=ready, video=playing
+[1492.009][v][vo/gpu/wayland] Enabling idle inhibitor
+[1492.009][v][cplayer] starting audio playback
+[1492.010][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1493.746][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1493.746][v][lavf] queuing seek to 1629.750000
+[1493.746][v][lavf] cached range 0: 1414.540000 <-> 2346.638000 (bof=0, eof=0)
+[1493.746][v][lavf] ...using this range for in-cache seek.
+[1493.746][v][lavf] adjust seek target 1629.750000 -> 1633.884000
+[1493.746][v][lavf] seeking stream 0 (video) to packet 1633.884000/1633.884000
+[1493.746][v][lavf] seeking stream 1 (audio) to packet 1633.877333/1633.877333
+[1493.746][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1493.748][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1493.748][v][vd] Codec profile: Constrained Baseline (0x242)
+[1493.748][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1493.748][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1493.758][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1493.765][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1493.765][v][vd] Using container aspect ratio.
+[1493.791][v][cplayer] first video frame after restart shown
+[1493.792][v][cplayer] audio ready
+[1493.792][d][cplayer] starting video playback
+[1493.792][v][cplayer] starting audio playback
+[1493.792][v][cplayer] playback restart complete @ 1633.884000, audio=playing, video=playing
+[1493.792][v][vo/gpu/wayland] Enabling idle inhibitor
+[1493.792][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1494.174][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1494.174][v][lavf] queuing seek to 1639.218000
+[1494.174][v][lavf] cached range 0: 1421.255000 <-> 2359.610000 (bof=0, eof=0)
+[1494.174][v][lavf] ...using this range for in-cache seek.
+[1494.175][v][lavf] adjust seek target 1639.218000 -> 1640.516000
+[1494.175][v][lavf] seeking stream 0 (video) to packet 1640.516000/1640.516000
+[1494.175][v][lavf] seeking stream 1 (audio) to packet 1640.512000/1640.512000
+[1494.175][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1494.176][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1494.176][v][vd] Codec profile: Constrained Baseline (0x242)
+[1494.176][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1494.176][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1494.182][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1494.182][v][vd] Using container aspect ratio.
+[1494.192][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1494.208][v][cplayer] first video frame after restart shown
+[1494.209][v][cplayer] audio ready
+[1494.209][d][cplayer] starting video playback
+[1494.209][v][cplayer] starting audio playback
+[1494.209][v][cplayer] playback restart complete @ 1640.516000, audio=playing, video=playing
+[1494.210][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1494.225][v][vo/gpu/wayland] Enabling idle inhibitor
+[1582.547][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1582.547][v][lavf] queuing seek to 1733.937000
+[1582.547][v][lavf] cached range 0: 1511.178000 <-> 2449.032000 (bof=0, eof=0)
+[1582.547][v][lavf] ...using this range for in-cache seek.
+[1582.548][v][lavf] adjust seek target 1733.937000 -> 1735.068000
+[1582.548][v][lavf] seeking stream 0 (video) to packet 1735.068000/1735.068000
+[1582.548][v][lavf] seeking stream 1 (audio) to packet 1735.061333/1735.061333
+[1582.548][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1582.549][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1582.549][v][vd] Codec profile: Constrained Baseline (0x242)
+[1582.549][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1582.549][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1582.556][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1582.565][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1582.565][v][vd] Using container aspect ratio.
+[1582.606][v][cplayer] first video frame after restart shown
+[1582.606][v][cplayer] audio ready
+[1582.606][d][cplayer] starting video playback
+[1582.606][v][cplayer] starting audio playback
+[1582.607][v][cplayer] playback restart complete @ 1735.068000, audio=playing, video=playing
+[1582.607][v][vo/gpu/wayland] Enabling idle inhibitor
+[1582.607][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1582.750][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1582.750][v][lavf] queuing seek to 1740.194000
+[1582.750][v][lavf] cached range 0: 1518.602000 <-> 2453.287000 (bof=0, eof=0)
+[1582.750][v][lavf] ...using this range for in-cache seek.
+[1582.751][v][lavf] adjust seek target 1740.194000 -> 1740.532000
+[1582.751][v][lavf] seeking stream 0 (video) to packet 1740.532000/1740.532000
+[1582.751][v][lavf] seeking stream 1 (audio) to packet 1740.522667/1740.522667
+[1582.751][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1582.752][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1582.752][v][vd] Codec profile: Constrained Baseline (0x242)
+[1582.752][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1582.752][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1582.756][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1582.766][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1582.766][v][vd] Using container aspect ratio.
+[1582.806][v][cplayer] first video frame after restart shown
+[1582.806][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1582.806][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1582.806][v][cplayer] audio ready
+[1582.806][d][cplayer] starting video playback
+[1582.806][v][lavf] queuing seek to 1750.532000
+[1582.806][v][lavf] cached range 0: 1523.398000 <-> 2462.165333 (bof=0, eof=0)
+[1582.806][v][lavf] ...using this range for in-cache seek.
+[1582.810][v][lavf] adjust seek target 1750.532000 -> 1759.635000
+[1582.810][v][lavf] seeking stream 0 (video) to packet 1759.635000/1759.635000
+[1582.810][v][lavf] seeking stream 1 (audio) to packet 1759.616000/1759.616000
+[1582.811][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1582.811][v][vd] Codec profile: Constrained Baseline (0x242)
+[1582.811][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1582.811][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1582.812][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1582.812][v][vd] Using container aspect ratio.
+[1582.856][v][cplayer] first video frame after restart shown
+[1582.857][v][cplayer] audio ready
+[1582.857][d][cplayer] starting video playback
+[1582.857][v][cplayer] starting audio playback
+[1582.857][v][cplayer] playback restart complete @ 1759.635000, audio=playing, video=playing
+[1582.857][v][vo/gpu/wayland] Enabling idle inhibitor
+[1582.857][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1584.330][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1584.331][v][lavf] queuing seek to 1766.094000
+[1584.331][v][lavf] cached range 0: 1551.635000 <-> 2491.742000 (bof=0, eof=0)
+[1584.331][v][lavf] ...using this range for in-cache seek.
+[1584.331][v][lavf] adjust seek target 1766.094000 -> 1768.519000
+[1584.331][v][lavf] seeking stream 0 (video) to packet 1768.519000/1768.519000
+[1584.331][v][lavf] seeking stream 1 (audio) to packet 1768.512000/1768.512000
+[1584.332][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1584.334][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1584.334][v][vd] Codec profile: Constrained Baseline (0x242)
+[1584.334][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1584.334][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1584.335][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1584.335][v][vd] Using container aspect ratio.
+[1584.339][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1584.372][v][cplayer] first video frame after restart shown
+[1584.373][v][cplayer] audio ready
+[1584.373][d][cplayer] starting video playback
+[1584.373][v][cplayer] starting audio playback
+[1584.373][v][cplayer] playback restart complete @ 1768.519000, audio=playing, video=playing
+[1584.373][v][vo/gpu/wayland] Enabling idle inhibitor
+[1584.374][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1584.946][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1584.947][v][lavf] queuing seek to 1774.061000
+[1584.947][v][lavf] cached range 0: 1559.434000 <-> 2499.833000 (bof=0, eof=0)
+[1584.947][v][lavf] ...using this range for in-cache seek.
+[1584.948][v][lavf] adjust seek target 1774.061000 -> 1774.149000
+[1584.948][v][lavf] seeking stream 0 (video) to packet 1774.149000/1774.149000
+[1584.948][v][lavf] seeking stream 1 (audio) to packet 1774.144000/1774.144000
+[1584.948][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1584.949][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1584.949][v][vd] Codec profile: Constrained Baseline (0x242)
+[1584.949][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1584.950][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1584.951][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1584.951][v][vd] Using container aspect ratio.
+[1584.956][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1584.989][v][cplayer] first video frame after restart shown
+[1584.990][v][cplayer] audio ready
+[1584.990][d][cplayer] starting video playback
+[1584.990][v][cplayer] starting audio playback
+[1584.990][v][cplayer] playback restart complete @ 1774.149000, audio=playing, video=playing
+[1584.990][v][vo/gpu/wayland] Enabling idle inhibitor
+[1584.990][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1589.113][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1589.113][v][lavf] queuing seek to 1783.237000
+[1589.113][v][lavf] cached range 0: 1564.314000 <-> 2503.212000 (bof=0, eof=0)
+[1589.113][v][lavf] ...using this range for in-cache seek.
+[1589.118][v][lavf] adjust seek target 1783.237000 -> 1785.077000
+[1589.118][v][lavf] seeking stream 0 (video) to packet 1785.077000/1785.077000
+[1589.118][v][lavf] seeking stream 1 (audio) to packet 1785.066667/1785.066667
+[1589.118][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1589.121][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1589.121][v][vd] Codec profile: Constrained Baseline (0x242)
+[1589.121][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1589.121][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1589.122][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1589.132][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1589.132][v][vd] Using container aspect ratio.
+[1589.172][v][cplayer] first video frame after restart shown
+[1589.173][v][cplayer] audio ready
+[1589.173][d][cplayer] starting video playback
+[1589.173][v][cplayer] starting audio playback
+[1589.173][v][cplayer] playback restart complete @ 1785.077000, audio=playing, video=playing
+[1589.174][v][vo/gpu/wayland] Enabling idle inhibitor
+[1589.174][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1589.320][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1589.321][v][lavf] queuing seek to 1790.202000
+[1589.321][v][lavf] cached range 0: 1569.987000 <-> 2506.507000 (bof=0, eof=0)
+[1589.321][v][lavf] ...using this range for in-cache seek.
+[1589.321][v][lavf] adjust seek target 1790.202000 -> 1790.874000
+[1589.322][v][lavf] seeking stream 0 (video) to packet 1790.874000/1790.874000
+[1589.322][v][lavf] seeking stream 1 (audio) to packet 1790.869333/1790.869333
+[1589.322][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1589.324][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1589.324][v][vd] Codec profile: Constrained Baseline (0x242)
+[1589.324][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1589.324][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1589.326][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1589.326][v][vd] Using container aspect ratio.
+[1589.339][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1589.356][v][cplayer] first video frame after restart shown
+[1589.357][v][cplayer] audio ready
+[1589.357][d][cplayer] starting video playback
+[1589.357][v][cplayer] starting audio playback
+[1589.357][v][cplayer] playback restart complete @ 1790.874000, audio=playing, video=playing
+[1589.357][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1589.372][v][vo/gpu/wayland] Enabling idle inhibitor
+[1589.844][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1589.845][v][lavf] queuing seek to 1796.333000
+[1589.845][v][lavf] cached range 0: 1572.074667 <-> 2507.716000 (bof=0, eof=0)
+[1589.845][v][lavf] ...using this range for in-cache seek.
+[1589.845][v][lavf] adjust seek target 1796.333000 -> 1799.299000
+[1589.845][v][lavf] seeking stream 0 (video) to packet 1799.299000/1799.299000
+[1589.845][v][lavf] seeking stream 1 (audio) to packet 1799.296000/1799.296000
+[1589.845][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1589.847][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1589.847][v][vd] Codec profile: Constrained Baseline (0x242)
+[1589.847][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1589.847][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1589.856][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1589.867][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1589.867][v][vd] Using container aspect ratio.
+[1589.906][v][cplayer] first video frame after restart shown
+[1589.907][v][cplayer] audio ready
+[1589.907][d][cplayer] starting video playback
+[1589.907][v][cplayer] starting audio playback
+[1589.908][v][vo/gpu/wayland] Enabling idle inhibitor
+[1589.908][v][cplayer] playback restart complete @ 1799.299000, audio=playing, video=playing
+[1589.908][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1590.270][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1590.270][v][lavf] queuing seek to 1804.633000
+[1590.270][v][lavf] cached range 0: 1578.245000 <-> 2514.306000 (bof=0, eof=0)
+[1590.270][v][lavf] ...using this range for in-cache seek.
+[1590.271][v][lavf] adjust seek target 1804.633000 -> 1808.892000
+[1590.271][v][lavf] seeking stream 0 (video) to packet 1808.892000/1808.892000
+[1590.271][v][lavf] seeking stream 1 (audio) to packet 1808.874667/1808.874667
+[1590.271][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1590.273][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1590.273][v][vd] Codec profile: Constrained Baseline (0x242)
+[1590.273][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1590.273][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1590.274][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1590.276][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1590.276][v][vd] Using container aspect ratio.
+[1590.306][v][cplayer] first video frame after restart shown
+[1590.307][v][cplayer] audio ready
+[1590.307][d][cplayer] starting video playback
+[1590.307][v][cplayer] starting audio playback
+[1590.307][v][vo/gpu/wayland] Enabling idle inhibitor
+[1590.307][v][cplayer] playback restart complete @ 1808.892000, audio=playing, video=playing
+[1590.307][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1590.472][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1590.474][v][lavf] queuing seek to 1814.017000
+[1590.474][v][lavf] cached range 0: 1584.293000 <-> 2517.893000 (bof=0, eof=0)
+[1590.474][v][lavf] ...using this range for in-cache seek.
+[1590.475][v][lavf] adjust seek target 1814.017000 -> 1814.606000
+[1590.475][v][lavf] seeking stream 0 (video) to packet 1814.606000/1814.606000
+[1590.475][v][lavf] seeking stream 1 (audio) to packet 1814.592000/1814.592000
+[1590.475][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1590.476][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1590.476][v][vd] Codec profile: Constrained Baseline (0x242)
+[1590.476][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1590.476][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1590.477][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1590.477][v][vd] Using container aspect ratio.
+[1590.489][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1590.522][v][cplayer] first video frame after restart shown
+[1590.524][v][cplayer] audio ready
+[1590.524][d][cplayer] starting video playback
+[1590.524][v][cplayer] starting audio playback
+[1590.524][v][cplayer] playback restart complete @ 1814.606000, audio=playing, video=playing
+[1590.524][v][vo/gpu/wayland] Enabling idle inhibitor
+[1590.525][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1590.900][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1590.900][v][lavf] queuing seek to 1819.940000
+[1590.900][v][lavf] cached range 0: 1586.628000 <-> 2527.069000 (bof=0, eof=0)
+[1590.900][v][lavf] ...using this range for in-cache seek.
+[1590.902][v][lavf] adjust seek target 1819.940000 -> 1824.992000
+[1590.902][v][lavf] seeking stream 0 (video) to packet 1824.992000/1824.992000
+[1590.902][v][lavf] seeking stream 1 (audio) to packet 1824.981333/1824.981333
+[1590.902][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1590.903][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1590.903][v][vd] Codec profile: Constrained Baseline (0x242)
+[1590.903][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1590.903][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1590.905][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1590.907][v][vd] Using container aspect ratio.
+[1590.907][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1590.922][v][cplayer] first video frame after restart shown
+[1590.923][v][cplayer] audio ready
+[1590.923][d][cplayer] starting video playback
+[1590.923][v][cplayer] starting audio playback
+[1590.923][v][cplayer] playback restart complete @ 1824.992000, audio=playing, video=playing
+[1590.924][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1590.939][v][vo/gpu/wayland] Enabling idle inhibitor
+[1591.102][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1591.102][v][lavf] queuing seek to 1830.117000
+[1591.102][v][lavf] cached range 0: 1592.843000 <-> 2537.412000 (bof=0, eof=0)
+[1591.102][v][lavf] ...using this range for in-cache seek.
+[1591.103][v][lavf] adjust seek target 1830.117000 -> 1833.500000
+[1591.103][v][lavf] seeking stream 0 (video) to packet 1833.500000/1833.500000
+[1591.103][v][lavf] seeking stream 1 (audio) to packet 1833.493333/1833.493333
+[1591.103][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1591.104][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1591.104][v][vd] Codec profile: Constrained Baseline (0x242)
+[1591.104][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1591.104][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1591.106][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1591.106][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1591.106][v][vd] Using container aspect ratio.
+[1591.139][v][cplayer] first video frame after restart shown
+[1591.140][v][cplayer] audio ready
+[1591.140][d][cplayer] starting video playback
+[1591.140][v][cplayer] starting audio playback
+[1591.140][v][cplayer] playback restart complete @ 1833.500000, audio=playing, video=playing
+[1591.140][v][vo/gpu/wayland] Enabling idle inhibitor
+[1591.140][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1591.389][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1591.390][v][lavf] queuing seek to 1838.709000
+[1591.390][v][lavf] cached range 0: 1598.974000 <-> 2544.253000 (bof=0, eof=0)
+[1591.390][v][lavf] ...using this range for in-cache seek.
+[1591.390][v][lavf] adjust seek target 1838.709000 -> 1839.173000
+[1591.390][v][lavf] seeking stream 0 (video) to packet 1839.173000/1839.173000
+[1591.390][v][lavf] seeking stream 1 (audio) to packet 1839.168000/1839.168000
+[1591.390][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1591.391][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1591.392][v][vd] Codec profile: Constrained Baseline (0x242)
+[1591.392][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1591.392][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1591.400][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1591.400][v][vd] Using container aspect ratio.
+[1591.406][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1591.439][v][cplayer] first video frame after restart shown
+[1591.440][v][cplayer] audio ready
+[1591.440][d][cplayer] starting video playback
+[1591.440][v][cplayer] starting audio playback
+[1591.440][v][vo/gpu/wayland] Enabling idle inhibitor
+[1591.440][v][cplayer] playback restart complete @ 1839.173000, audio=playing, video=playing
+[1591.441][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1591.589][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1591.589][v][lavf] queuing seek to 1844.298000
+[1591.589][v][lavf] cached range 0: 1602.060000 <-> 2544.253000 (bof=0, eof=0)
+[1591.589][v][lavf] ...using this range for in-cache seek.
+[1591.590][v][lavf] adjust seek target 1844.298000 -> 1844.845000
+[1591.590][v][lavf] seeking stream 0 (video) to packet 1844.845000/1844.845000
+[1591.590][v][lavf] seeking stream 1 (audio) to packet 1844.842667/1844.842667
+[1591.591][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1591.592][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1591.592][v][vd] Codec profile: Constrained Baseline (0x242)
+[1591.592][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1591.592][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1591.594][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1591.594][v][vd] Using container aspect ratio.
+[1591.606][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1591.640][v][cplayer] first video frame after restart shown
+[1591.642][v][cplayer] audio ready
+[1591.642][d][cplayer] starting video playback
+[1591.642][v][cplayer] starting audio playback
+[1591.642][v][cplayer] playback restart complete @ 1844.845000, audio=playing, video=playing
+[1591.642][v][vo/gpu/wayland] Enabling idle inhibitor
+[1591.645][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1595.094][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1595.094][v][lavf] queuing seek to 1853.265000
+[1595.094][v][lavf] cached range 0: 1606.940000 <-> 2554.263000 (bof=0, eof=0)
+[1595.094][v][lavf] ...using this range for in-cache seek.
+[1595.094][v][lavf] adjust seek target 1853.265000 -> 1855.147000
+[1595.094][v][lavf] seeking stream 0 (video) to packet 1855.147000/1855.147000
+[1595.094][v][lavf] seeking stream 1 (audio) to packet 1855.146667/1855.146667
+[1595.094][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1595.096][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1595.096][v][vd] Codec profile: Constrained Baseline (0x242)
+[1595.096][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1595.096][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1595.105][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1595.115][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1595.115][v][vd] Using container aspect ratio.
+[1595.155][v][cplayer] first video frame after restart shown
+[1595.157][v][cplayer] audio ready
+[1595.157][d][cplayer] starting video playback
+[1595.157][v][cplayer] starting audio playback
+[1595.157][v][cplayer] playback restart complete @ 1855.147000, audio=playing, video=playing
+[1595.157][v][vo/gpu/wayland] Enabling idle inhibitor
+[1595.157][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1595.304][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1595.304][v][lavf] queuing seek to 1860.272000
+[1595.304][v][lavf] cached range 0: 1610.944000 <-> 2567.359000 (bof=0, eof=0)
+[1595.304][v][lavf] ...using this range for in-cache seek.
+[1595.305][v][lavf] adjust seek target 1860.272000 -> 1861.195000
+[1595.305][v][lavf] seeking stream 0 (video) to packet 1861.195000/1861.195000
+[1595.305][v][lavf] seeking stream 1 (audio) to packet 1861.184000/1861.184000
+[1595.305][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1595.306][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1595.306][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1595.306][v][vd] Codec profile: Constrained Baseline (0x242)
+[1595.306][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1595.306][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1595.315][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1595.315][v][vd] Using container aspect ratio.
+[1595.356][v][cplayer] first video frame after restart shown
+[1595.356][v][cplayer] audio ready
+[1595.356][d][cplayer] starting video playback
+[1595.356][v][cplayer] starting audio playback
+[1595.357][v][cplayer] playback restart complete @ 1861.195000, audio=playing, video=playing
+[1595.357][v][vo/gpu/wayland] Enabling idle inhibitor
+[1595.357][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1595.663][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1595.663][v][lavf] queuing seek to 1866.486000
+[1595.663][v][lavf] cached range 0: 1615.866000 <-> 2573.031000 (bof=0, eof=0)
+[1595.663][v][lavf] ...using this range for in-cache seek.
+[1595.663][v][lavf] adjust seek target 1866.486000 -> 1866.491000
+[1595.663][v][lavf] seeking stream 0 (video) to packet 1866.491000/1866.491000
+[1595.663][v][lavf] seeking stream 1 (audio) to packet 1866.474667/1866.474667
+[1595.663][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1595.664][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1595.664][v][vd] Codec profile: Constrained Baseline (0x242)
+[1595.664][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1595.664][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1595.666][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1595.666][v][vd] Using container aspect ratio.
+[1595.672][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1595.705][v][cplayer] first video frame after restart shown
+[1595.706][v][cplayer] audio ready
+[1595.706][d][cplayer] starting video playback
+[1595.706][v][cplayer] starting audio playback
+[1595.706][v][cplayer] playback restart complete @ 1866.491000, audio=playing, video=playing
+[1595.706][v][vo/gpu/wayland] Enabling idle inhibitor
+[1595.707][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1595.872][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1595.872][v][lavf] queuing seek to 1871.658000
+[1595.872][v][lavf] cached range 0: 1617.451000 <-> 2576.743000 (bof=0, eof=0)
+[1595.872][v][lavf] ...using this range for in-cache seek.
+[1595.873][v][lavf] adjust seek target 1871.658000 -> 1873.999000
+[1595.873][v][lavf] seeking stream 0 (video) to packet 1873.999000/1873.999000
+[1595.873][v][lavf] seeking stream 1 (audio) to packet 1873.984000/1873.984000
+[1595.873][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1595.874][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1595.874][v][vd] Codec profile: Constrained Baseline (0x242)
+[1595.874][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1595.874][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1595.876][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1595.876][v][vd] Using container aspect ratio.
+[1595.878][v][lavf] EOF reached.
+[1595.889][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1595.922][v][cplayer] first video frame after restart shown
+[1595.923][v][cplayer] audio ready
+[1595.923][d][cplayer] starting video playback
+[1595.923][v][cplayer] starting audio playback
+[1595.923][v][cplayer] playback restart complete @ 1873.999000, audio=playing, video=playing
+[1595.923][v][vo/gpu/wayland] Enabling idle inhibitor
+[1595.923][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1596.501][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1596.501][v][lavf] queuing seek to 1879.541000
+[1596.501][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[1596.501][v][lavf] ...using this range for in-cache seek.
+[1596.501][v][lavf] adjust seek target 1879.541000 -> 1882.883000
+[1596.501][v][lavf] seeking stream 0 (video) to packet 1882.883000/1882.883000
+[1596.501][v][lavf] seeking stream 1 (audio) to packet 1882.880000/1882.880000
+[1596.501][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1596.502][v][lavf] EOF reached.
+[1596.503][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1596.503][v][vd] Codec profile: Constrained Baseline (0x242)
+[1596.503][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1596.503][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1596.504][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1596.504][v][vd] Using container aspect ratio.
+[1596.505][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1596.539][v][cplayer] first video frame after restart shown
+[1596.539][v][cplayer] audio ready
+[1596.539][d][cplayer] starting video playback
+[1596.539][v][cplayer] starting audio playback
+[1596.539][v][cplayer] playback restart complete @ 1882.883000, audio=playing, video=playing
+[1596.539][v][vo/gpu/wayland] Enabling idle inhibitor
+[1596.540][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1596.702][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[1596.702][v][lavf] queuing seek to 1888.008000
+[1596.702][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[1596.702][v][lavf] ...using this range for in-cache seek.
+[1596.702][v][lavf] adjust seek target 1888.008000 -> 1890.390000
+[1596.702][v][lavf] seeking stream 0 (video) to packet 1890.390000/1890.390000
+[1596.702][v][lavf] seeking stream 1 (audio) to packet 1890.389333/1890.389333
+[1596.702][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[1596.702][v][lavf] EOF reached.
+[1596.703][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[1596.703][v][vd] Codec profile: Constrained Baseline (0x242)
+[1596.703][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[1596.703][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[1596.704][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[1596.704][v][vd] Using container aspect ratio.
+[1596.705][v][vo/gpu/wayland] Disabling the idle inhibitor
+[1596.722][v][cplayer] first video frame after restart shown
+[1596.723][v][cplayer] audio ready
+[1596.723][d][cplayer] starting video playback
+[1596.723][v][cplayer] starting audio playback
+[1596.723][v][cplayer] playback restart complete @ 1890.390000, audio=playing, video=playing
+[1596.723][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[1596.739][v][vo/gpu/wayland] Enabling idle inhibitor
+[1707.010][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.010][v][cplayer] Set property: volume -> 1
+[1707.219][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.219][v][cplayer] Set property: volume -> 1
+[1707.251][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.251][v][cplayer] Set property: volume -> 1
+[1707.272][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.272][v][cplayer] Set property: volume -> 1
+[1707.294][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.294][v][cplayer] Set property: volume -> 1
+[1707.315][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.315][v][cplayer] Set property: volume -> 1
+[1707.336][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.336][v][cplayer] Set property: volume -> 1
+[1707.379][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.379][v][cplayer] Set property: volume -> 1
+[1707.386][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.386][v][cplayer] Set property: volume -> 1
+[1707.419][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.419][v][cplayer] Set property: volume -> 1
+[1707.443][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.443][v][cplayer] Set property: volume -> 1
+[1707.464][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.464][v][cplayer] Set property: volume -> 1
+[1707.486][d][cplayer] Run command: add, flags=73, args=[name="volume", value="2.000000"]
+[1707.486][v][cplayer] Set property: volume -> 1
+[1968.488][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[2218.641][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[2218.653][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[2219.538][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[2219.538][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[2220.731][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[2220.731][v][lavf] queuing seek to 2520.015000
+[2220.731][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[2220.731][v][lavf] ...using this range for in-cache seek.
+[2220.731][v][lavf] adjust seek target 2520.015000 -> 2527.110000
+[2220.731][v][lavf] seeking stream 0 (video) to packet 2527.110000/2527.110000
+[2220.731][v][lavf] seeking stream 1 (audio) to packet 2527.104000/2527.104000
+[2220.731][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[2220.732][v][lavf] EOF reached.
+[2220.733][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[2220.733][v][vd] Codec profile: Constrained Baseline (0x242)
+[2220.733][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[2220.733][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[2220.740][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2220.749][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[2220.749][v][vd] Using container aspect ratio.
+[2220.790][v][cplayer] first video frame after restart shown
+[2220.790][v][cplayer] audio ready
+[2220.790][d][cplayer] starting video playback
+[2220.790][v][cplayer] starting audio playback
+[2220.791][v][cplayer] playback restart complete @ 2527.110000, audio=playing, video=playing
+[2220.791][v][vo/gpu/wayland] Enabling idle inhibitor
+[2220.791][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[2221.432][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[2221.432][v][lavf] queuing seek to 2532.694000
+[2221.432][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[2221.432][v][lavf] ...using this range for in-cache seek.
+[2221.432][v][lavf] adjust seek target 2532.694000 -> 2533.075000
+[2221.432][v][lavf] seeking stream 0 (video) to packet 2533.075000/2533.075000
+[2221.432][v][lavf] seeking stream 1 (audio) to packet 2533.056000/2533.056000
+[2221.432][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[2221.432][v][lavf] EOF reached.
+[2221.433][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[2221.433][v][vd] Codec profile: Constrained Baseline (0x242)
+[2221.433][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[2221.433][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[2221.435][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[2221.435][v][vd] Using container aspect ratio.
+[2221.440][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2221.473][v][cplayer] first video frame after restart shown
+[2221.474][v][cplayer] audio ready
+[2221.474][d][cplayer] starting video playback
+[2221.474][v][cplayer] starting audio playback
+[2221.474][v][cplayer] playback restart complete @ 2533.075000, audio=playing, video=playing
+[2221.474][v][vo/gpu/wayland] Enabling idle inhibitor
+[2221.475][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[2221.976][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[2221.976][v][lavf] queuing seek to 2538.534000
+[2221.976][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[2221.976][v][lavf] ...using this range for in-cache seek.
+[2221.976][v][lavf] adjust seek target 2538.534000 -> 2544.294000
+[2221.976][v][lavf] seeking stream 0 (video) to packet 2544.294000/2544.294000
+[2221.976][v][lavf] seeking stream 1 (audio) to packet 2544.277333/2544.277333
+[2221.976][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[2221.977][v][lavf] EOF reached.
+[2221.977][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[2221.977][v][vd] Codec profile: Constrained Baseline (0x242)
+[2221.977][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[2221.977][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[2221.990][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2221.999][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[2221.999][v][vd] Using container aspect ratio.
+[2222.040][v][cplayer] first video frame after restart shown
+[2222.040][v][cplayer] audio ready
+[2222.040][d][cplayer] starting video playback
+[2222.040][v][cplayer] starting audio playback
+[2222.040][v][cplayer] playback restart complete @ 2544.294000, audio=playing, video=playing
+[2222.040][v][vo/gpu/wayland] Enabling idle inhibitor
+[2222.041][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[2222.678][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[2222.678][v][lavf] queuing seek to 2549.878000
+[2222.678][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[2222.678][v][lavf] ...using this range for in-cache seek.
+[2222.678][v][lavf] adjust seek target 2549.878000 -> 2554.304000
+[2222.678][v][lavf] seeking stream 0 (video) to packet 2554.304000/2554.304000
+[2222.678][v][lavf] seeking stream 1 (audio) to packet 2554.304000/2554.304000
+[2222.678][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[2222.679][v][lavf] EOF reached.
+[2222.679][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[2222.679][v][vd] Codec profile: Constrained Baseline (0x242)
+[2222.679][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[2222.679][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[2222.681][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[2222.681][v][vd] Using container aspect ratio.
+[2222.689][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2222.723][v][cplayer] first video frame after restart shown
+[2222.723][v][cplayer] audio ready
+[2222.723][d][cplayer] starting video playback
+[2222.723][v][cplayer] delaying audio start 2554.304022 vs. 2554.304000, diff=0.000022
+[2222.723][v][cplayer] playback restart complete @ 2554.304000, audio=ready, video=playing
+[2222.723][v][vo/gpu/wayland] Enabling idle inhibitor
+[2222.724][v][cplayer] starting audio playback
+[2222.724][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[2222.888][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[2222.888][v][lavf] queuing seek to 2559.429000
+[2222.888][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[2222.888][v][lavf] ...using this range for in-cache seek.
+[2222.888][v][lavf] adjust seek target 2559.429000 -> 2564.314000
+[2222.888][v][lavf] seeking stream 0 (video) to packet 2564.314000/2564.314000
+[2222.889][v][lavf] seeking stream 1 (audio) to packet 2564.309333/2564.309333
+[2222.889][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[2222.889][v][lavf] EOF reached.
+[2222.889][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[2222.889][v][vd] Codec profile: Constrained Baseline (0x242)
+[2222.889][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[2222.889][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[2222.890][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2222.892][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[2222.892][v][vd] Using container aspect ratio.
+[2222.923][v][cplayer] first video frame after restart shown
+[2222.923][v][cplayer] audio ready
+[2222.923][d][cplayer] starting video playback
+[2222.923][v][cplayer] starting audio playback
+[2222.924][v][cplayer] playback restart complete @ 2564.314000, audio=playing, video=playing
+[2222.924][v][vo/gpu/wayland] Enabling idle inhibitor
+[2222.924][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[2223.750][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[2223.750][v][lavf] queuing seek to 2570.107000
+[2223.750][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[2223.750][v][lavf] ...using this range for in-cache seek.
+[2223.750][v][lavf] adjust seek target 2570.107000 -> 2573.073000
+[2223.750][v][lavf] seeking stream 0 (video) to packet 2573.073000/2573.073000
+[2223.750][v][lavf] seeking stream 1 (audio) to packet 2573.056000/2573.056000
+[2223.750][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[2223.750][v][lavf] EOF reached.
+[2223.753][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[2223.753][v][vd] Codec profile: Constrained Baseline (0x242)
+[2223.753][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[2223.753][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[2223.754][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[2223.754][v][vd] Using container aspect ratio.
+[2223.756][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2223.789][v][cplayer] first video frame after restart shown
+[2223.790][v][cplayer] audio ready
+[2223.790][d][cplayer] starting video playback
+[2223.790][v][cplayer] starting audio playback
+[2223.790][v][cplayer] playback restart complete @ 2573.073000, audio=playing, video=playing
+[2223.790][v][vo/gpu/wayland] Enabling idle inhibitor
+[2223.791][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[2229.650][d][cplayer] Run command: seek, flags=73, args=[target="5.000000", flags="relative", legacy="unused"]
+[2229.651][v][lavf] queuing seek to 2583.912000
+[2229.651][v][lavf] cached range 0: 1623.040000 <-> 2584.793000 (bof=0, eof=1)
+[2229.651][v][lavf] ...using this range for in-cache seek.
+[2229.651][v][lavf] adjust seek target 2583.912000 -> 2584.751000
+[2229.651][v][lavf] seeking stream 0 (video) to packet 2584.751000/2584.751000
+[2229.651][v][lavf] seeking stream 1 (audio) to packet 2583.914667/2583.914667
+[2229.651][d][ao/pipewire] Stream state changed: old_state=streaming state=paused error=(null)
+[2229.651][v][lavf] EOF reached.
+[2229.651][v][vd] Pixel formats supported by decoder: vdpau vulkan cuda vaapi yuv420p
+[2229.652][v][vd] Codec profile: Constrained Baseline (0x242)
+[2229.652][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[2229.652][d][ffmpeg/video] h264: Reinit context to 1280x720, pix_fmt: vaapi
+[2229.656][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2229.666][v][vd] Decoder format: 1280x720 [319:320] vaapi[nv12] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x720+0+0
+[2229.666][v][vd] Using container aspect ratio.
+[2229.706][v][cplayer] first video frame after restart shown
+[2229.707][v][af] filter input EOF
+[2229.707][v][af] filter output EOF
+[2229.707][v][cplayer] audio filter EOF
+[2229.707][v][cplayer] audio ready (and EOF)
+[2229.707][d][cplayer] starting video playback
+[2229.707][v][cplayer] starting audio playback
+[2229.707][v][cplayer] audio draining
+[2229.707][v][cplayer] playback restart complete @ 2584.751000, audio=draining, video=playing
+[2229.707][v][vo/gpu/wayland] Enabling idle inhibitor
+[2229.707][v][cplayer] audio EOF reached
+[2229.707][v][vf] filter input EOF
+[2229.707][v][vf] filter output EOF
+[2229.707][v][cplayer] EOF code: 1  
+[2229.707][v][vo/gpu/wayland] Disabling the idle inhibitor
+[2229.707][d][ao/pipewire] Stream state changed: old_state=paused state=streaming error=(null)
+[2229.707][d][ad] Uninit decoder.
+[2229.708][d][vd] Uninit decoder.
+[2229.709][d][cplayer] Terminating demuxers...
+[2229.737][d][osc] osc_init
+[2229.738][v][cplayer] Set property: user-data/osc/margins={"r":0,"b":0,"l":0,"t":0} -> 1
+[2229.775][d][cplayer] Done terminating demuxers.
+[2229.775][v][cplayer] finished playback, success (reason 0)
+[2229.775][i][cplayer] Exiting... (End of file)
+[2229.776][d][ytdl_hook] Exiting...
+[2229.776][d][autosub] Exiting...
+[2229.777][d][auto_profiles] Exiting...
+[2229.777][d][stats] Exiting...
+[2229.777][d][console] Exiting...
+[2229.778][d][cplayer] Run command: del, flags=64, args=[name="user-data/osc"]
+[2229.779][d][osc] Exiting...
+[2229.779][d][mpris] Exiting...
+[2229.820][d][vo/gpu] flushing shader cache
+[2229.872][v][vo/gpu/wayland] Deregistering output Chimei Innolux Corporation 0x151B (0x30)
+[2229.872][v][vo/gpu/wayland] Deregistering seat 0x2d

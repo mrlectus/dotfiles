@@ -1,0 +1,13 @@
+[manager]
+  sort_by = "modified"
+  sort_reverse =  true
+  sort_dir_first = true
+  linemode= "mtime"
+  show_symlink = true
+  mouse_events = ["drag"]
+[preview]
+  max_width = 800
+  max_height = 600
+  image_filter    = "nearest"
+  cache_dir = "/home/brown/.cache/yazi"
+  image_quality   = 90

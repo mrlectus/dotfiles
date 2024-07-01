@@ -1,0 +1,1 @@
+-- Sourcegraph configuration. All keys are optional

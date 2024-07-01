@@ -1,0 +1,50 @@
+# Example aliases
+alias qbittorrent='QT_SCALE_FACTOR_ROUNDING_POLICY=Round qbittorrent'
+alias nin="echo 31021805010"
+alias linkedin="echo https://www.linkedin.com/in/abdulwaheed-j-64561494"
+alias kssh="kitty +kitten ssh"
+alias bulkrename='vimv'
+alias bemenu="bemenu  --bottom --no-overlap"
+alias zshconfig="vim ~/.zshrc"
+alias less="less -Q"
+alias man='man -P "less -Q"'
+alias kshow='kitty +kitten icat'
+alias c='clear'
+alias cls='clear'
+alias vi='nvim'
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias wanip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias ll='ls -lh'
+alias editpic='display'
+alias la='ls -lab'
+alias l='ls -x'
+alias lservice='sudo systemctl list-units --type service'
+alias dd='dd status=progress'
+alias _='sudo'
+alias gitls='ls --git --git-ignore'
+alias rsync='rsync --progress -h'
+alias _i='sudo -i'
+alias please='sudo'
+alias rcopy='rsync -ah --progress'
+alias wifi-connect='nmtui'
+alias fucking='sudo'
+alias synctime='sudo chronyd'
+alias cast='asciinema play'
+alias mouse='sudo modprobe -r psmouse && sudo modprobe psmouse'
+alias svn="svn --config-dir $XDG_CONFIG_HOME/subversion"
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias c=clear
+alias n=nvim
+alias expo_route="bunx create-expo-app@latest --template tabs@49"
+alias v=vim
+alias gdb="gdb -q"
+alias rust-gdb="rust-gdb -q"
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias l="eza --icons --group-directories-first"
+alias exa="eza --icons --group-directories-first"
+alias statusof="systemctl status"
+alias ip="ip -color -f inet"
+
+setup-remix() {
+  pnpx create-remix@latest
+}

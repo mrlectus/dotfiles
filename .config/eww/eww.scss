@@ -1,0 +1,123 @@
+$BLACK: #181926;
+$WHITE: #cad3f5;
+$MAGENTA: #c6a0f6;
+$BLACK: #181926;
+$GREY: #939ab7;
+$GREEN: #a6da95;
+
+* {
+  all: unset;
+}
+
+window {
+  border-radius: 20px;
+  border: 5px solid $WHITE;
+  background-color: $BLACK
+}
+
+.album_img {
+    margin: 25;
+    background-size:100% 100%;
+}
+
+.current_song {
+  margin-right: 1px;
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  color: $WHITE;
+}
+
+.current_artist {
+  margin-left: 1px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: light;
+  color: $WHITE;
+}
+
+.current_album {
+  margin-left: 1px;
+  font-size: 30px;
+  font-family: light;
+  color: $WHITE;
+}
+
+.progress_song trough highlight {
+  all: unset;
+  background-color: $GREEN;
+  border-radius: 2px;
+}
+
+.progress_song trough {
+  all: unset;
+  background-color: $GREY;
+  min-height: 10px;
+  margin-top: 20px;
+  margin-left: -60px;
+  margin-right: -50px;
+  border-radius: 2px;
+}
+
+.progress_time_position {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+  color: $WHITE;
+  font-style: italic;
+}
+
+.progress_time_length {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 17px;
+  color: $WHITE;
+  font-style: italic;
+}
+
+button {
+  all: unset;
+}
+
+.buttons_info {
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: $GREEN
+}
+
+.control_buttons {
+  transition: all 0.2s ease-in-out;
+  font-size: 50px;
+  color: $BLACK;
+}
+
+.control_buttons:hover {
+  font-size: 45px;
+}
+
+.play_button {
+  transition: all 0.2s ease-in-out;
+  margin-right: 1rem;
+  font-size: 60px;
+  color: $BLACK;
+}
+
+.play_button:active {
+  font-size: 60px;
+}
+
+.shuffle {
+  margin-right: 1rem;
+}
+
+.previous {
+  margin-right: 1rem;
+}
+.next {
+  margin-left: 1rem;
+}
+.loop {
+  margin-right: 1rem;
+}

@@ -1,0 +1,11 @@
+entry {
+  placeholder: "Type here";
+}
+
+element {
+  orientation: horizontal;
+  children: [ element-text, element-icon];
+  spacing: 5px;
+}
+
+@theme "arthur"
