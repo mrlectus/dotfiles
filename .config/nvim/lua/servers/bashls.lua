@@ -1,6 +1,2 @@
-require("lspconfig").bashls.setup({
-  settings = {
-
-  }
-})
+require("lspconfig").bashls.setup({})
 require("lspconfig").awk_ls.setup({})
