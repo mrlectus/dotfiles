@@ -1,34 +1,13 @@
-[credential "https://github.com"]
-	helper =
-	helper = !/usr/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper =
-	helper = !/usr/bin/gh auth git-credential
-[user]
-	email = lilbrown3000@gmail.com
-	name = BrownCarter
 [init]
 	defaultBranch = main
-[pull]
-	rebase = true
+[user]
+	email = lilbrown3000@gmail.com
+	name = mrlectus
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
 [alias]
 	hist = log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all
-[core]
-  packedGitLimit = 512m
-  packedGitWindowSize = 512m
-	compression = 9
-	compression = 9
-	pager = less -F -X
-[pack]
-  deltaCacheSize = 2047m
-  packSizeLimit = 2047m
-  windowMemory = 2047m
-[http]
-	postBuffer = 524288000
-	version = HTTP/2
-	maxRequestBuffer = 100M
-	sslVerify = false
-	lowSpeedLimit = 100000
-	lowSpeedTime = 6000
-[https]
-	postBuffer = 524288000
