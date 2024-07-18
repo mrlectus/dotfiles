@@ -93,6 +93,15 @@ require("formatter").setup({
         }
       end,
     },
+    tex = {
+      function()
+        return {
+          exe = "latexindent",
+          args = { "-sl", "-w", "-s", "-y=2", "-ft=tex" },
+          stdin = true,
+        }
+      end,
+    },
     astro = {
       function()
         return {
@@ -115,6 +124,7 @@ require("conform").setup({
   formatters_by_ft = {
     javascriptreact = { "prettier", "eslint_d" },
     typescriptreact = { "prettier", "eslint_d" },
+    tex = { "latexindent" },
   },
   format_after_save = {
     -- These options will be passed to conform.format()

@@ -1,17 +1,9 @@
-THEME_RAND=1 #$(( (RANDOM % 2) + 1 ))
-# typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-
-if [[ $THEME_RAND -eq 1 ]]; then
-  if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-  fi
-  Z_THEME=catppuccin_mocha-zsh-syntax-highlighting.zsh
-  source "${HOME}/.config/zsh/${Z_THEME}"
-  ZSH_THEME="powerlevel10k/powerlevel10k"
-  [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-else
-  eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/base.toml)"
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+ZSH_THEME="powerlevel10k/powerlevel10k"
+source "${HOME}/.config/zsh/${Z_THEME}"
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.

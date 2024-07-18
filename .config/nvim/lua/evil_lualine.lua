@@ -82,7 +82,7 @@ ins_left({
     return "▊"
   end,
   color = { fg = colors.blue }, -- Sets highlighting of component
-  left_padding = 0,            -- We don't need space before this
+  left_padding = 0,             -- We don't need space before this
 })
 
 ins_left({
@@ -215,6 +215,12 @@ ins_right({
 })
 
 ins_right({
+  require("noice").api.status.mode.get,
+  cond = require("noice").api.status.mode.has,
+  color = { fg = "#ff9e64" },
+})
+
+ins_right({
   "diff",
   -- Is it me or the symbol for modified us really weird
   symbols = { added = " ", modified = "柳 ", removed = " " },
@@ -222,6 +228,12 @@ ins_right({
   color_modified = colors.orange,
   color_removed = colors.red,
   condition = conditions.hide_in_width,
+})
+
+ins_right({
+  "rest",
+  icon = "",
+  fg = "#428890",
 })
 
 ins_right({
