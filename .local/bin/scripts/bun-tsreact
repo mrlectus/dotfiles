@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+bunx create-vite@latest "$1" --template react-swc-ts
+
+cd "$1" || exit
+
+bun install \
+  react-cookie \
+  axios \
+  react-router-dom \
+  localforage \
+  match-sorter \
+  sort-by \
+  @tanstack/react-query \
+  @tanstack/react-query-devtools \
+  react-hot-toast
+
+bun install -d \
+  tailwindcss \
+  postcss \
+  autoprefixer \
+  @types/node
+
+bunx tailwindcss init -p --ts
+
+sed -i s/'"dev": "vite",'/'"dev": "bunx --bun vite",'/g package.json
+
+source /home/brown/dotfiles/.local/bin/scripts/template.react
+
+bunx shadcn-ui@latest init

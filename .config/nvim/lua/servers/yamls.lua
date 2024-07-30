@@ -1,5 +1,6 @@
 require("lspconfig").ansiblels.setup({})
 require("lspconfig").dockerls.setup({})
+require 'lspconfig'.docker_compose_language_service.setup {}
 require 'lspconfig'.taplo.setup {}
 require("lspconfig").yamlls.setup({
   settings = {

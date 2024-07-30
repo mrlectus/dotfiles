@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+pnpm dlx create-vite@latest "$1" --template react-swc-ts
+
+cd "$1" || exit
+
+pnpm install \
+  react-cookie \
+  axios \
+  react-router-dom \
+  localforage \
+  match-sorter \
+  sort-by \
+  @tanstack/react-query \
+  @tanstack/react-query-devtools \
+  react-hot-toast
+
+pnpm install -d \
+  tailwindcss \
+  postcss \
+  autoprefixer \
+  @types/node
+
+pnpm dlx tailwindcss init -p --ts
+
+source /home/brown/dotfiles/.local/bin/scripts/template.react
+
+pnpm dlx shadcn-ui@latest init

@@ -1,0 +1,10 @@
+#!/bin/env bash
+
+# user -> Brown Carter
+# file -> laravel_setup
+# date -> Thu-Jul-2022  22:21:32
+set -eou pipefail
+
+(command -v laravel 1>/dev/null && laravel new "$1") || exit 0
+
+ls

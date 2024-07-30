@@ -1,0 +1,22 @@
+#!/bin/env bash
+
+py_file=$1
+cat <<EOF >"$py_file"
+#!/bin/env python3
+# user -> Brown Carter
+# file -> $py_file
+# date -> $(date "+%a-%b-%Y  %T")
+
+import os
+import sys
+
+
+def main():
+    pass
+
+
+if __name__ == '__main__':
+    main()
+EOF
+
+[[ -e $py_file ]] && chmod u+x "$py_file"

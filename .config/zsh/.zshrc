@@ -92,13 +92,23 @@ eval "$(pyenv init --path)"
 
 plugins=(
   zbell
-  git
   command-not-found
-  node
-  npm
   vi-mode
-  pyenv
+  zsh-autosuggestions
   zsh-syntax-highlighting
+  colorize
+  history
+  history-substring-search
+  httpie
+  node
+  nodenv
+  systemadmin
+  rsync
+  thefuck
+  virtualenv
+  archlinux
+  direnv
+  copypath
   colored-man-pages
 )
 source $ZSH/oh-my-zsh.sh
@@ -107,14 +117,7 @@ source $ZSH/oh-my-zsh.sh
 export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-export LANG=en_US.UTF-8
-export LC_COLLATE=en_US.UTF-8
-export CTYPE=en_US.UTF-8
-export MESSAGE=en_US.UTF-8
-export MONETARY=en_US.UTF-8
-export NUMERIC=en_US.UTF-8
-export TIME=en_US.UTF-8
-export ALL=en_US.UTF-8
+
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -538,3 +541,9 @@ if [[ -z "$ZELLIJ" ]]; then
         zellij
     fi
 fi
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/brown/app/google-cloud-sdk/path.zsh.inc' ]; then . '/home/brown/app/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/brown/app/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/brown/app/google-cloud-sdk/completion.zsh.inc'; fi

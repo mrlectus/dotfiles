@@ -45,6 +45,10 @@ alias exa="eza --icons --group-directories-first"
 alias statusof="systemctl status"
 alias ip="ip -color -f inet"
 
+ovpn() {
+  sudo openvpn "$HOME/Downloads/ovpn/nl-free-913043.protonvpn.tcp.ovpn"
+}
+
 setup-remix() {
   pnpx create-remix@latest
 }

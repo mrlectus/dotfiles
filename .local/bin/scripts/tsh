@@ -1,0 +1,13 @@
+#!/bin/env bash
+
+bash_file=$1
+
+cat <<EOF >"$bash_file"
+#!/bin/env bash
+
+# user -> Brown Carter
+# file -> $bash_file
+# date -> $(date "+%a-%b-%Y  %T")
+
+EOF
+[[ -e $bash_file ]] && chmod u+x "$bash_file"

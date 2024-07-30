@@ -42,6 +42,8 @@ return {
     end,
   },
   "mattn/emmet-vim",
+  "isobit/vim-caddyfile",
+  "dcampos/cmp-emmet-vim",
   "mfussenegger/nvim-jdtls",
   "mhartington/formatter.nvim",
   "nanotee/sqls.nvim",

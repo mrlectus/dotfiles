@@ -162,7 +162,6 @@ map("n", "<leader>sl", ":SessionLoad<CR>", opts)
 map("n", "<leader>rr", ":Rest run<CR>", {})
 map("n", "<leader>rl", ":Rest run last<CR>", {})
 
-vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.format()]])
 -- Jumping
 map("n", "<leader>nb", "<C-o>", opts)
 

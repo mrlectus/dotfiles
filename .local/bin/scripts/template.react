@@ -1,0 +1,92 @@
+#!/bin/env bash
+
+# user -> Brown Carter
+# file -> react-template
+# date -> Tue-Jul-2024  11:01:29
+
+cat <<-EOF >./src/index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+EOF
+
+cat <<-EOF >./src/main.tsx
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import App from './App.tsx';
+import './index.css';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { Toaster } from 'react-hot-toast';
+import { CookiesProvider } from 'react-cookie';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+  },
+]);
+
+const queryClient = new QueryClient();
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <CookiesProvider defaultSetOptions={{ path: '/' }}>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      <ReactQueryDevtools />
+      <Toaster position="top-center" reverseOrder={false} />
+      </QueryClientProvider>
+    </CookiesProvider>
+  </React.StrictMode>
+);
+EOF
+
+cat <<-EOF >./tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
+EOF
+
+cat <<-EOF >vite.config.ts
+import path from "path"
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+})
+EOF

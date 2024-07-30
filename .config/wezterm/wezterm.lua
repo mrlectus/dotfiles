@@ -1,11 +1,11 @@
--- hellor from thr otehr 0
+-- hellor from thr other 0
 local wezterm = require("wezterm")
 local act = wezterm.action
 return {
   font_shaper = "Harfbuzz",
   font = wezterm.font("MonaspiceNe NFP", { weight = "Regular", italic = false }),
   term = "xterm-256color",
-  color_scheme = "Catppuccin Macchiato (Gogh)",
+  color_scheme = "Dracula+",
   colors = {
     visual_bell = "#202020",
   },
