@@ -29,9 +29,7 @@ export QT_QPA_PLATFORM=wayland
 export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
-export QT_STYLE_OVERRIDE=kvantum
 export GROFF_NO_SGR=1         # For Konsole and Gnome-terminalexport XDG_CACHE_HOME=/home/brown/.cache/
-export QT_STYLE_OVERRIDE=kvantum
 export YARN_BIN=/home/brown/.local/share/npm/bin
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
 export XDG_CURRENT_DESKTOP=sway
@@ -46,7 +44,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export ANDROID_SDK_ROOT=${HOME}/Android/sdk
 export ANDROID_PREFS_ROOT=/home/brown/Android/sdk
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
+# export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export EDITOR=$VISUAL
 export ELINKS_CONFDIR="$XDG_CONFIG_HOME"/elinks
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

@@ -6,11 +6,11 @@ local opts = {
 	tools = {
 		-- rust-tools options
 		autoSetHints = true,
-		inlay_hints = {
-			show_parameter_hints = false,
-			parameter_hints_prefix = "",
-			other_hints_prefix = "",
-		},
+		-- inlay_hints = {
+		-- 	show_parameter_hints = false,
+		-- 	parameter_hints_prefix = "",
+		-- 	other_hints_prefix = "",
+		-- },
 	},
 	-- all the opts to send to nvim-lspconfig
 	-- these override the defaults set by rust-tools.nvim
@@ -22,7 +22,7 @@ local opts = {
 			["rust-analyzer"] = {
 				-- enable clippy on save
 				checkOnSave = {
-					command = "clippy",
+					-- command = "clippy",
 				},
 			},
 		},

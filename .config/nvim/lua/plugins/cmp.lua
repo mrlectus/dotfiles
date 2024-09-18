@@ -11,4 +11,10 @@ return {
 		"hrsh7th/cmp-omni",
 		{ "roobert/tailwindcss-colorizer-cmp.nvim", config = true },
 	},
+	opts = {
+		performance = {
+			debounce = 0, -- default is 60ms
+			throttle = 0, -- default is 30ms
+		},
+	},
 }

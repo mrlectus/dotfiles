@@ -25,4 +25,4 @@ pnpm dlx tailwindcss init -p --ts
 
 source /home/brown/dotfiles/.local/bin/scripts/template.react
 
-pnpm dlx shadcn-ui@latest init
+pnpm dlx shadcn@latest init

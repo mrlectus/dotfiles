@@ -400,7 +400,7 @@ mode "resize" {
 }
 
 bindsym $mod+Shift+r mode "resize"
-bindsym Mod4+e exec /home/brown/.local/bin/wofi-emoji
+bindsym Mod4+e exec emote
 # exec_always autotiling
 exec_always wlsunset -l 9.076479 -L 7.398574
 exec wl-paste --watch cliphist store

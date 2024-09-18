@@ -1,3 +1,4 @@
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -176,11 +177,12 @@ function osc7 {
     uri=${(j::)input/(#b)([^A-Za-z0-9_.\!~*\'\(\)-\/])/%${(l:2::0:)$(([##16]#match))}}
     print -n "\e]7;file://${HOSTNAME}${uri}\e\\"
 }
+
 add-zsh-hook -Uz chpwd osc7
 
-precmd() {
-    print -Pn "\e]133;A\e\\"
-}
+# precmd() {
+#     print -Pn "\e]133;A\e\\"
+# }
 source /usr/share/nvm/init-nvm.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
@@ -533,14 +535,14 @@ if [[ -o zle ]]; then
     [[ "${+functions[compdef]}" -ne 0 ]] && \compdef __zoxide_z_complete j
 fi
 
-ZELLIJ_AUTO_ATTACH="true"
-if [[ -z "$ZELLIJ" ]]; then
-    if [[ "$ZELLIJ_AUTO_ATTACH" == "true" ]]; then
-        zellij attach mrlectus
-    else
-        zellij
-    fi
-fi
+# ZELLIJ_AUTO_ATTACH="true"
+# if [[ -z "$ZELLIJ" ]]; then
+#     if [[ "$ZELLIJ_AUTO_ATTACH" == "true" ]]; then
+#         zellij attach mrlectus
+#     else
+#         zellij
+#     fi
+# fi
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/brown/app/google-cloud-sdk/path.zsh.inc' ]; then . '/home/brown/app/google-cloud-sdk/path.zsh.inc'; fi

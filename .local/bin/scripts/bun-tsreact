@@ -27,4 +27,4 @@ sed -i s/'"dev": "vite",'/'"dev": "bunx --bun vite",'/g package.json
 
 source /home/brown/dotfiles/.local/bin/scripts/template.react
 
-bunx shadcn-ui@latest init
+bunx shadcn@latest init
