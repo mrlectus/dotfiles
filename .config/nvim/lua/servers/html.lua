@@ -35,6 +35,7 @@ require("lspconfig").tailwindcss.setup({
 			experimental = {
 				classRegex = {
 					{ "cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]", 'class: "(.*)"' },
+					{ "cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)" },
 				},
 				includeLanguages = {
 					rust = "html",
