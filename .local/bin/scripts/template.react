@@ -90,7 +90,7 @@ cat <<-EOF >./tsconfig.app.json
   "include": ["src"]
 }
 EOF
-cat <<-EOF >./tsconfig.app.json
+cat <<-EOF >./tsconfig.node.json
 {
   "compilerOptions": {
     "target": "ES2022",

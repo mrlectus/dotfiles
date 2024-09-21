@@ -135,6 +135,7 @@ assign [app_id="^Alacritty$"] 2
 assign [app_id="^evince$"] 6
 assign [app_id="^figma-linux$"] 10
 assign [app_id="^firefox$"] 1
+assign [app_id="^zen-alpha$"] 1
 assign [app_id="^firefoxdeveloperedition$"] 1
 assign [app_id="^google-chrome$"] 1
 assign [app_id="^kitty$"] 2
@@ -158,6 +159,7 @@ assign [class="^Atril$"] 6
 assign [class="^Caja$"] 3
 assign [class="^chromium$"] 1
 assign [class="^Google-chrome-unstable$"] 1
+assign [class="^waterfox$"] 1
 assign [class="^Eclipse$"] 4
 assign [class="^FireFox$"] 1
 assign [class="^Foxit Reader$"] 6
@@ -221,8 +223,6 @@ exec nm-applet --indicator
 #exec twmnd
 exec swaync
 exec eww daemon
-
-
 
 ### Key bindings
 #
