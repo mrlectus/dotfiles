@@ -151,6 +151,7 @@ assign [app_id="^org.qbittorrent.qBittorrent$"] 8
 assign [app_id="^org.telegram.desktop$"] 7
 assign [app_id="^org.zealdocs.zeal$"] 10
 assign [app_id="^remarkable$"] 4
+assign [app_id="^pinta$"] 4
 assign [app_id="^telegramdesktop$"] 7
 assign [app_id="^virt-manager$"] 10
 assign [app_id="pcmanfm$"] 3

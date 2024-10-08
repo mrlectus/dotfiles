@@ -6,15 +6,15 @@ vim.cmd([[highlight IndentBlanklineIndent5 guifg=#61AFEF gui=nocombine]])
 vim.cmd([[highlight IndentBlanklineIndent6 guifg=#C678DD gui=nocombine]])
 
 require("lsp-colors").setup({
-  Error = "#db4b4b",
-  Warning = "#e0af68",
-  Information = "#0db9d7",
-  Hint = "#10B981",
+	Error = "#db4b4b",
+	Warning = "#e0af68",
+	Information = "#0db9d7",
+	Hint = "#10B981",
 })
 
 require("ibl").setup({
-  indent = {
-    char = "▎",
-    tab_char = "▎", -- This was the fix
-  },
+	indent = {
+		char = "▎",
+		tab_char = "▎", -- This was the fix
+	},
 })

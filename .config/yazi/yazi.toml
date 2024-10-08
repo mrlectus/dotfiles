@@ -11,3 +11,22 @@
   image_filter    = "nearest"
   cache_dir = "/home/brown/.cache/yazi"
   image_quality   = 90
+
+[opener]
+edit = [
+	{ run = 'nvim "$@"', block = true, for = "unix" },
+	{ run = 'pinta "$@"', block = false, for = "unix" },
+]
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
+
+[open]
+rules = [
+	{ mime = "image/*", use = ["open", "edit"] },
+	{ mime = "video/*", use = ["open", "play"] },
+	{ mime = "*", use = ["open"] },
+]

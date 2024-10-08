@@ -2,7 +2,7 @@ gui:
   showIcons: true
   showCommandLog: true
   nerdFontsVersion: "3"
-  commandLogSize: 16
+  commandLogSize: 36
   theme:
     activeBorderColor:
       - "#a6e3a1" # Green
@@ -12,8 +12,6 @@ gui:
     optionsTextColor:
       - "#89b4fa" # Blue
     selectedLineBgColor:
-      - "#313244" # Surface0
-    selectedRangeBgColor:
       - "#313244" # Surface0
     cherryPickedCommitBgColor:
       - "#94e2d5" # Teal
