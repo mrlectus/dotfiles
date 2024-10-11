@@ -95,3 +95,7 @@ vim.cmd([[
     autocmd TextYankPost * silent! lua vim.highlight.on_yank()
   augroup end
 ]])
+
+vim.g.markdown_fenced_languages = {
+	"ts=typescript",
+}

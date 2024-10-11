@@ -1,5 +1,6 @@
 #!/bin/env bash
 fastify generate --esm --lang=ts "$1"
 cd "$1" || exit
-pnpm install @fastify/cookie @fastify/cors @fastify/csrf-protection @fastify/env @fastify/helmet paseto @fastify/one-line-logger @fastify/rate-limit @fastify/redis @fastify/multipart @fastify/swagger @fastify/swagger-ui @fastify/websocket fastify-type-provider-zod zod
+pnpm install @fastify/cookie @fastify/cors @fastify/csrf-protection @fastify/env @fastify/helmet paseto @fastify/one-line-logger @fastify/rate-limit @fastify/redis @fastify/multipart @fastify/swagger @fastify/swagger-ui @fastify/websocket fastify-type-provider-zod zod drizzle-orm pg dotenv @paralleldrive/cuid2
+pnpm install -D drizzle-kit tsx @types/pg
 source "$HOME/.local/bin/scripts/template.fastify"

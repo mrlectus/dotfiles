@@ -7,25 +7,30 @@ FASTIFY_ADDRESS=0.0.0.0
 NODE_ENV=development
 FASTIFY_OPTIONS=true
 COOKIE_SECRET=$(openssl rand -base64 32)
+DATABASE_URL=""
 EOF
 
-cat <<-EOF >./src/plugins/z-cookie.ts
+cat <<-EOF >./src/plugins/cookie.ts
 import fp from "fastify-plugin";
 import fastifyCookie, { FastifyCookieOptions } from "@fastify/cookie";
 
-export default fp(async (fastify) => {
-  await fastify.register(fastifyCookie, {
-    secret: fastify.config.COOKIE_SECRET,
-    parseOptions: {
-      secure: true,
-      httpOnly: true,
-      path: "/",
-      sameSite: "none",
-      partitioned: true,
-    },
-  } as FastifyCookieOptions);
-});
-EOF
+export default fp(
+  async (fastify) => {
+    await fastify.register(fastifyCookie, {
+      secret: fastify.config.COOKIE_SECRET,
+      parseOptions: {
+        secure: true,
+        httpOnly: true,
+        path: "/",
+        sameSite: "none",
+        partitioned: true,
+      },
+    } as FastifyCookieOptions);
+  },
+  {
+    dependencies: ["env"],
+  },
+);EOF
 
 cat <<-EOF >./src/plugins/cors.ts
 import fp from "fastify-plugin";
@@ -74,6 +79,9 @@ const schema = {
     BASE_URL: {
       type: "string",
     },
+    DATABASE_URL: {
+      type: "string",
+    },
   },
 };
 
@@ -89,6 +97,8 @@ export default fp(async (fastify) => {
   } catch (error) {
     console.error(error);
   }
+}, {
+name: "env"
 });
 
 declare module "fastify" {
@@ -98,6 +108,33 @@ declare module "fastify" {
       JWT_SECRET: string;
       BASE_URL: string;
       COOKIE_SECRET: string;
+      DATABASE_URL: string;
+    };
+  }
+}
+EOF
+
+cat <<-EOF >./src/plugins/database.ts
+import { drizzle, NodePgDatabase } from "drizzle-orm/node-postgres";
+import { Pool } from "pg";
+import fp from "fastify-plugin";
+import * as schema from "../models/schema.js";
+
+export default fp(async (fastify) => {
+  const pool = new Pool({
+    connectionString: fastify.config.DATABASE_URL,
+  });
+  const db = drizzle(pool, { schema });
+  fastify.decorate("db", db);
+},   {
+    dependencies: ["env"],
+  },
+);
+
+declare module "fastify" {
+  export interface FastifyInstance {
+    db: NodePgDatabase<typeof schema> & {
+      \$client: Pool;
     };
   }
 }
@@ -141,7 +178,6 @@ import fastifyRedis from "@fastify/redis";
 export default fp(async (fastify) => {
   await fastify.register(fastifyRedis, {
     host: '127.0.0.1', 
-    password: 'hesoyam',
     port: 6379,
     family: 4
   });
@@ -191,6 +227,27 @@ const root: FastifyPluginAsyncZod = async function (fastify, _opts) {
 
 export default root;
 EOF
+
+mkdir .src/models
+cat <<-EOF >./src/models/root.models.ts
+import fp from "fastify-plugin";
+export default fp(async (fastify) => {
+  //TODO
+});
+EOF
+
+cat <<-EOF >./src/models/schema.ts
+import { pgTable, varchar } from "drizzle-orm/pg-core";
+import { createId } from "@paralleldrive/cuid2";
+export const usersTable = pgTable("users", {
+  id: varchar("id")
+    .primaryKey()
+    .\$defaultFn(() => createId()),
+  password: varchar("password", { length: 255 }).notNull(),
+  email: varchar("email", { length: 255 }).notNull().unique(),
+});
+EOF
+
 cat <<-EOF >./src/app.ts
 import * as path from 'path';
 import AutoLoad, {AutoloadPluginOptions} from '@fastify/autoload';
@@ -278,12 +335,42 @@ const app: FastifyPluginAsync<AppOptions> = async (
     dir: path.join(__dirname, "models"),
     options: opts,
     ignorePattern: /.*(\.js|\.ts)/,
-    indexPattern: /.*model(\.ts|\.js|.\cjs)/i,
+    indexPattern: /.*models(\.ts|\.js|.\cjs)/i,
     forceESM: true,
   });
 };
 
 export default app;
 export { app, options }
+EOF
+
+cat <<-EOF >./drizzle.config.ts
+import "dotenv/config";
+import { defineConfig } from "drizzle-kit";
+
+export default defineConfig({
+  out: "./drizzle",
+  schema: "./src/models/schema.ts",
+  dialect: "postgresql",
+  dbCredentials: {
+    url: process.env.DATABASE_URL!,
+  },
+});
+EOF
+cat <<-EOF >./compose.yaml
+---
+services:
+  db:
+    image: postgres:16.3-alpine3.20
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: \${DB_NAME}
+      POSTGRES_USER: \${DB_USER}
+      POSTGRES_PASSWORD: \${DB_PASS}
+    ports:
+      - 5432:5432
+    volumes:
+      - ./pgdata:/var/lib/postgres/data
 EOF
 echo "Fastify setup complete" || exit
