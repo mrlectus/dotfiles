@@ -6,14 +6,15 @@ cd "$1" || exit
 
 pnpm add \
   react-cookie \
-  axios \
-  react-router-dom \
-  localforage \
-  match-sorter \
-  sort-by \
   @tanstack/react-query \
+  @tanstack/react-router \
+  @tanstack/router-devtools \
+  @tanstack/router-plugin \
   @tanstack/react-query-devtools \
-  react-hot-toast
+  zod \
+  await-to-ts \
+  ts-pattern \
+  ky
 
 pnpm add -D \
   tailwindcss \
@@ -23,6 +24,6 @@ pnpm add -D \
 
 pnpm dlx tailwindcss init -p --ts
 
-source /home/brown/dotfiles/.local/bin/scripts/template.react
+source /home/brown/dotfiles/.local/bin/scripts/template.react-tansack
 
 pnpm dlx shadcn@latest init -d

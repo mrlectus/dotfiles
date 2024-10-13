@@ -1,7 +1,6 @@
 vim.g.loaded_netrw = 1
 vim.opt.updatetime = 300
 vim.g.loaded_netrwPlugin = 1
-vim.treesitter.stop = true
 
 -- environment for home
 local set = vim.opt
