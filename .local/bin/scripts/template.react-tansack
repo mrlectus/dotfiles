@@ -11,7 +11,6 @@ cat <<-EOF >./src/index.css
 EOF
 
 cat <<-EOF >./src/main.tsx
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
 import { routeTree } from './routeTree.gen'
@@ -32,15 +31,16 @@ declare module '@tanstack/react-router' {
   }
 }
 
-const rootElement = document.getElementById('app')!
+const rootElement = document.getElementById('root')!
 
+const queryClient = new QueryClient();
 if (!rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement)
   root.render(
     <CookiesProvider defaultSetOptions={{ path: '/' }}>
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
-        <ReactQueryDevtools />
+        <ReactQueryDevtools buttonPosition="bottom-left" />
       </QueryClientProvider>
     </CookiesProvider>
   )
@@ -138,7 +138,6 @@ EOF
 mkdir ./src/routes
 
 cat <<-EOF >./src/routes/__root.tsx
-import * as React from 'react'
 import { Link, Outlet, createRootRoute } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/router-devtools'
 
@@ -160,7 +159,7 @@ function RootComponent() {
           Home
         </Link>{' '}
         <Link
-          to="/about"
+          to="/example"
           activeProps={{
             className: 'font-bold',
           }}
@@ -176,7 +175,6 @@ function RootComponent() {
 }
 EOF
 cat <<-EOF >./src/routes/index.tsx
-import * as React from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/')({
@@ -192,7 +190,6 @@ function HomeComponent() {
 }
 EOF
 cat <<-EOF >./src/routes/example.tsx
-import * as React from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/about')({
