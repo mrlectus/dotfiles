@@ -11,41 +11,29 @@ cat <<-EOF >./src/index.css
 EOF
 
 cat <<-EOF >./src/main.tsx
-import ReactDOM from 'react-dom/client'
-import { RouterProvider, createRouter } from '@tanstack/react-router'
-import { routeTree } from './routeTree.gen'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import { CookiesProvider } from 'react-cookie';
+import ReactDOM from "react-dom/client";
+import { RouterProvider, createRouter } from "@tanstack/react-router";
+import { routeTree } from "./routeTree.gen";
+import "./index.css";
 
 // Set up a Router instance
 const router = createRouter({
   routeTree,
-  defaultPreload: 'intent',
-})
+  defaultPreload: "intent",
+});
 
 // Register things for typesafety
-declare module '@tanstack/react-router' {
+declare module "@tanstack/react-router" {
   interface Register {
-    router: typeof router
+    router: typeof router;
   }
 }
 
-const rootElement = document.getElementById('root')!
-
-const queryClient = new QueryClient();
+const rootElement = document.getElementById("root")!;
 if (!rootElement.innerHTML) {
-  const root = ReactDOM.createRoot(rootElement)
-  root.render(
-    <CookiesProvider defaultSetOptions={{ path: '/' }}>
-      <QueryClientProvider client={queryClient}>
-        <RouterProvider router={router} />
-        <ReactQueryDevtools buttonPosition="bottom-left" />
-      </QueryClientProvider>
-    </CookiesProvider>
-  )
-}
-EOF
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(<RouterProvider router={router} />);
+}EOF
 
 cat <<-EOF >./tsconfig.json
 {
@@ -62,6 +50,7 @@ cat <<-EOF >./tsconfig.json
   }
 }
 EOF
+
 cat <<-EOF >./tsconfig.app.json
 {
   "compilerOptions": {
@@ -138,40 +127,30 @@ EOF
 mkdir ./src/routes
 
 cat <<-EOF >./src/routes/__root.tsx
-import { Link, Outlet, createRootRoute } from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/router-devtools'
+import { Outlet, createRootRoute } from "@tanstack/react-router";
+import { TanStackRouterDevtools } from "@tanstack/router-devtools";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { CookiesProvider } from "react-cookie";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
+export const queryClient = new QueryClient();
 export const Route = createRootRoute({
   component: RootComponent,
-})
+});
 
 function RootComponent() {
   return (
     <>
-      <div className="p-2 flex gap-2 text-lg">
-        <Link
-          to="/"
-          activeProps={{
-            className: 'font-bold',
-          }}
-          activeOptions={{ exact: true }}
-        >
-          Home
-        </Link>{' '}
-        <Link
-          to="/example"
-          activeProps={{
-            className: 'font-bold',
-          }}
-        >
-          About
-        </Link>
-      </div>
-      <hr />
-      <Outlet />
+      <CookiesProvider defaultSetOptions={{ path: "/" }}>
+        <QueryClientProvider client={queryClient}>
+          <Outlet />
+          <ReactQueryDevtools buttonPosition="bottom-left" />
+        </QueryClientProvider>
+      </CookiesProvider>
+      ,
       <TanStackRouterDevtools position="bottom-right" />
     </>
-  )
+  );
 }
 EOF
 cat <<-EOF >./src/routes/index.tsx
@@ -203,5 +182,6 @@ function ExampleComponent() {
     </div>
   )
 }
+
 EOF
 import * as React from 'react'
